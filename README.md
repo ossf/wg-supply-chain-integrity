@@ -1,31 +1,43 @@
-# Developer Identity Working Group
+# WG Developer Identity
 
-The intent of the OpenSSF Developer Identity Working Group is to make it easy
-and possible for open source projects and maintainers to trust and verify the
-identity of their maintainers and contributors.
+This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
+The [Focus](#focus) section below describes what is in and out of scope,
+and [Governance](#governance) section describes how our operations are consistent with OSSF policies with links to more detailed documents.
 
-## Goals/OKRs
+**Mission:** TODO
 
-TODO
-
-## Non-Goals
-
-Enforce or mandate identity requirements for projects.
-We will simply make this service available and easy-to-use, leaving it up to
-projects and communities to adopt if they choose to do so.
-
-## Communications
+## Motivation
 
 TODO
 
-## Meeting Time
+## Focus
+
+### In scope
 
 TODO
 
-## In Person Meetings
-
-None planned at this time.
-
-## Meeting Minutes
+### Out of scope
 
 TODO
+
+## Operations
+
+WG-Developer-Identity operations are consistent with standard operating guidelines
+provided by the OSSF Technical Advisory Committee
+[TAC](https://github.com/ossf/tac).
+
+### Meetings
+
+TODO: Add info on meeting schedule and calendar invitations
+
+#### Notes and Agendas
+
+TODO: Add links to notes and agendas
+
+### Communications
+
+TODO: Add links to slack channel and email lists
+
+## Governance
+
+Full details of process and roles are linked from [governance README](/governance).
