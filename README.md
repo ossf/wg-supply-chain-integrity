@@ -59,6 +59,26 @@ The same identity can be used to sign commits, sign packages, even all the way u
 * Enforce or mandate identity requirements for projects.
   We will simply make this service available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
 
+## Threat Models
+
+* Malicious/Nefarious individuals get maintainer permissions
+* Duplicate accounts, self-reviewing code
+* Identity spoofing, claiming you work for well-known company X
+
+## Prior Art
+
+[Keybase.io](http://keybase.io/) started as a service to verify identities for social media and send encrypted messages. The original website and open source command line program allowed you to get a public key safely, just by knowing a person's username on a social network. It created a public key pair for users which could then be used to verify identity.
+
+[Google Ads](https://support.google.com/google-ads/answer/9843535?hl=en) recently launched an identity verification system that requires advertisers to verify their identities for ads served through Google Ads.
+
+[Debian](https://wiki.debian.org/DebianDeveloper/JoinTheProject/NewMember#Step_4:_Identification) generally requires identity verification of maintainers/developers. Pseudonymous contributions are only allowed in special circumstances.
+
+[Fedora](https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#Introduce_yourself) prefers/requires real name communication for maintainers, but doesn't attempt to require it as far as I can tell.
+
+[Arch](https://www.archlinux.org/people/developers/) doesn't have a formal policy, but all developers are listed by real names.
+
+[Ubuntu](https://wiki.ubuntu.com/NewDevelopersAndMaintainers) doesn't enforce identity, but worries about it: "Authentication problem, you have to know that a person is who he says he is."
+
 ## Operations
 
 WG-Developer-Identity operations are consistent with standard operating guidelines
