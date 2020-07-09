@@ -9,13 +9,13 @@ and [Governance](#governance) section describes how our operations are consisten
 ## Motivation
 
 Without too much effort, an attacker could insert malicious code into a popular open source library and carry out an
-attack. 
+attack.
 
 One way an attacker could achieve this is by looking for a highly imported package that sits low in the stack but can
 still affect communication, maybe even has root access, and that has few eyes on it, or even no eyes.
 This type of attack was carried out against the [event-stream](https://arstechnica.com/information-technology/2018/11/hacker-backdoors-widely-used-open-source-software-to-steal-bitcoin/)
 module in node.js, which was co-opted to steal bitcoins (by attempting to steal credentials for developers of a
-particular bitcoin wallet), a malicious maintainer took over the code: 
+particular bitcoin wallet), a malicious maintainer took over the code:
 
 > "He emailed me and said he wanted to maintain the module, so I gave it to him," developer Dominic Tarr wrote in a
 > GitHub comment. "I don't get anything from maintaining this module, and I don't even use it anymore, and haven't
@@ -32,7 +32,18 @@ The attack above was executed in multiple steps.
 One way to mitigate an attack like this is to build a trusted identity system for maintainers of critical open source
 projects. Highly critical projects should be encouraged to verify the identity of their maintainers, and anyone with
 administrative permissions on their SCM, CI or artifact management systems.
-Later, they may make use of this identity system to flag contributions that should warrant closer review.  
+Later, they may make use of this identity system to flag contributions that should warrant closer review.
+
+It would also be of benefit to have a public record of code commits and changes, so that in the event that a compromise
+is discovered, we have an immutable / time stamped record of the change and its author. Having such a
+tamper resistant proof of change(s) would then allow queries to be made against the compromised access credentials (the
+developer ID) and allow us to see if compromised developer ID performed changes in other open source projects (thereby
+suggesting further compromise to other projects).
+
+This might be best achieved with a transparency log type system.
+
+The public record could be modelled after the similar effort to provide open audit of certificate signing as implemented
+in the [certificate transparency](https://www.certificate-transparency.org/) project.
 
 ## Focus
 
@@ -41,17 +52,20 @@ The system itself will be open and neutrally governed.
 
 This identity system can be used to help automatically provide a "Risk Assessment" for any project, and identity anomalies in commits.
 A project with a half-dozen well-known committers that have verified their identity and sign all commits is very low risk.
-A project that has had a huge surge in activity from unknown committers is very high risk. 
+A project that has had a huge surge in activity from unknown committers is very high risk.
 
 This web-of-trust-like identity system needs to be available to attest metadata and identities at every step of the supply chain.
 The same identity can be used to sign commits, sign packages, even all the way up to auditing changes made to running systems.
+
+Lastly all operations would be recorded into the transparency log.
 
 
 ### Goals
 
 * Give open source maintainers a way to do work under their real names, representing their real employers in trusted ways.
-* Give open source projects tools and infrastructure to verify the indentities of their maintainers.
+* Give open source projects tools and infrastructure to verify the identities of their maintainers.
 * Give consumers of open source libraries more data for determining the risks of depending on said library.
+* Give consumers and maintainers a public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
 
 ### Non Goals
