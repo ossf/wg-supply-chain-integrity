@@ -45,33 +45,38 @@ This might be best achieved with a transparency log type system.
 The public record could be modelled after the similar effort to provide open audit of certificate signing as implemented
 in the [certificate transparency](https://www.certificate-transparency.org/) project.
 
-## Focus
-
-Our proposal is to build a source of identity for open source committers, owned and operated by the OpenSSF.
-The system itself will be open and neutrally governed.
-
-This identity system can be used to help automatically provide a "Risk Assessment" for any project, and identity anomalies in commits.
-A project with a half-dozen well-known committers that have verified their identity and sign all commits is very low risk.
-A project that has had a huge surge in activity from unknown committers is very high risk.
-
-This web-of-trust-like identity system needs to be available to attest metadata and identities at every step of the supply chain.
-The same identity can be used to sign commits, sign packages, even all the way up to auditing changes made to running systems.
-
-Lastly all operations would be recorded into the transparency log.
-
-
 ### Goals
 
-* Give open source maintainers a way to do work under their real names, representing their real employers in trusted ways.
+* Give open source maintainers a way to do work under their chosen name, representing their real employers in secure ways.
 * Give open source projects tools and infrastructure to verify the identities of their maintainers.
 * Give consumers of open source libraries more data for determining the risks of depending on said library.
 * Give consumers and maintainers a public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
+* Give OSS maintainers better ability to ensure that project governance policies (like independent signoff) are followed.
+* Give OSS consumers tools to delect surges in activity from unknown committers.
 
 ### Non Goals
 
 * Enforce or mandate identity requirements for projects.
   We will simply make this service available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
+
+## Threat Models
+
+This section contains possible attacks we can try to mitigate, prevent or detect:
+
+* Malicious/Nefarious individuals get maintainer permissions and starts making making commits or pushes to a registry
+* Duplicate accounts, self-reviewing code
+* Identity spoofing: claiming you work for a specific organization that you do not, or are a specific individual that you are not
+
+## Prior Work
+
+* Keybase.io started as a service to verify identities for social media and send encrypted messages.
+  The original system and open source command line program allowed you to get a public key safely, just by knowing a person's username on a social network.
+  It created a public key pair for users which could then be used to verify identity.
+* [Debian](https://wiki.debian.org/DebianDeveloper/JoinTheProject/NewMember#Step_4:_Identification) generally requires identity verification of maintainers/developers.
+  Pseudonymous contributions are only allowed in special circumstances.
+* [Fedora](https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#Introduce_yourself) prefers/requires real name communication for maintainers, but doesn't attempt to require it.
+* [Ubuntu](https://wiki.ubuntu.com/NewDevelopersAndMaintainers) doesn't enforce identity, but worries about it: "Authentication problem, you have to know that a person is who he says he is."
 
 ## Operations
 
