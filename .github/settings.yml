@@ -23,10 +23,18 @@ collaborators:
   - username: dlorenc
     permission: admin
 
+  - username: lukehinds
+    permission: admin
+
     # Contributors
     # all permissions except admin
+  - username: axelsimon
+    permission: push
 
   - username: caniszczyk
+    permission: push
+
+  - username: mpeters
     permission: push
 
 labels:
