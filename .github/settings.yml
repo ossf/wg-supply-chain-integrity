@@ -8,7 +8,7 @@ repository:
   description: OpenSSF WG Developer Identity
 
   # A URL with more information about the repository
-  homepage: https://cncf.io/projects
+  homepage: https://openssf.org
 
   # Collaborators: give specific users access to this repository.
   # see /governance/roles.md for details on write access policy
