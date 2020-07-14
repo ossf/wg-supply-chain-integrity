@@ -47,7 +47,7 @@ in the [certificate transparency](https://www.certificate-transparency.org/) pro
 
 ### Goals
 
-![dog_meme](./dog_meme.jpg)
+<img align="right" src="./dog_meme.jpg">
 
 * Give open source maintainers a way to do work under their chosen name, representing their real employers in secure ways.
 * Give open source projects tools and infrastructure to verify the identities of their maintainers.
