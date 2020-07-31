@@ -29,21 +29,7 @@ In the case of malicious code, the attacker will also try to obscure the real ef
 slowly such that individual commits are less suspect.
 The attack above was executed in multiple steps.
 
-One way to help mitigate and potentially detect an attack like this is to build a trusted identity system for maintainers of critical open source
-projects. Highly critical projects should be encouraged to verify the identity of their maintainers, and anyone with
-administrative permissions on their SCM, CI or artifact management systems.
-Later, they may make use of this identity system to flag contributions that should warrant closer review.
-
-It would also be of benefit to have a public record of code commits and changes, so that in the event that a compromise
-is discovered, we have an immutable / time stamped record of the change and its author. Having such a
-tamper resistant proof of change(s) would then allow queries to be made against the compromised access credentials (the
-developer ID) and allow us to see if compromised developer ID performed changes in other open source projects (thereby
-suggesting further compromise to other projects).
-
-This might be best achieved with a transparency log type system.
-
-The public record could be modelled after the similar effort to provide open audit of certificate signing as implemented
-in the [certificate transparency](https://www.certificate-transparency.org/) project.
+These problems need solutions!
 
 ### Goals
 
@@ -61,6 +47,7 @@ in the [certificate transparency](https://www.certificate-transparency.org/) pro
 
 * Enforce or mandate identity requirements for projects.
   We will simply make this service available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
+* Make it harder to people to contribute to open source projects.
 
 ## Threat Models
 
@@ -83,13 +70,13 @@ This section contains possible attacks we can try to mitigate, prevent or detect
 
 ## Prior Work
 
-* Keybase.io started as a service to verify identities for social media and send encrypted messages.
+* Keybase.io had a service to verify identities for social media and send encrypted messages.
   The original system and open source command line program allowed you to get a public key safely, just by knowing a person's username on a social network.
-  It created a public key pair for users which could then be used to verify identity.
 * [Debian](https://wiki.debian.org/DebianDeveloper/JoinTheProject/NewMember#Step_4:_Identification) generally requires identity verification of maintainers/developers.
   Pseudonymous contributions are only allowed in special circumstances.
 * [Fedora](https://fedoraproject.org/wiki/Join_the_package_collection_maintainers#Introduce_yourself) prefers/requires real name communication for maintainers, but doesn't attempt to require it.
 * [Ubuntu](https://wiki.ubuntu.com/NewDevelopersAndMaintainers) doesn't enforce identity, but worries about it: "Authentication problem, you have to know that a person is who he says he is."
+* [Kubernetes](https://github.com/kubernetes/community/blob/master/community-membership.md) requires existing members to sponsor new members.
 
 ## Operations
 
@@ -101,13 +88,13 @@ provided by the OSSF Technical Advisory Committee
 
 TODO: Add info on meeting schedule and calendar invitations
 
-#### Notes and Agendas
-
-TODO: Add links to notes and agendas
-
 ### Communications
 
-TODO: Add links to slack channel and email lists
+We have a public email list available here: https://groups.google.com/forum/#!forum/ossf-wg-developer-identity
+
+#### Notes and Agendas
+
+Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1kSGo7YjtY8e4j-iQt6RWJc8nFV0B0y1hsBHNUzRuGNg/edit?hl=en#heading=h.7sqp1y7cjvfb).
 
 ## Governance
 
