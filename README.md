@@ -94,7 +94,7 @@ We have a public email list available here: https://groups.google.com/forum/#!fo
 
 #### Notes and Agendas
 
-Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1kSGo7YjtY8e4j-iQt6RWJc8nFV0B0y1hsBHNUzRuGNg/edit?hl=en#heading=h.7sqp1y7cjvfb).
+Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1xPs2sSbH3I9Ich7OyLOzl85oJshnK8Q6WoAgREE5-zA/edit). (Join the group above to edit.)
 
 ## Governance
 
