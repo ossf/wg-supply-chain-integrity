@@ -41,13 +41,13 @@ These problems need solutions!
 * Give consumers and maintainers a public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
 * Give OSS maintainers better ability to ensure that project governance policies (like independent signoff) are followed.
-* Give OSS consumers tools to delect surges in activity from unknown committers.
+* Give OSS consumers tools to detect surges in activity from unknown committers.
 
 ### Non Goals
 
 * Enforce or mandate identity requirements for projects.
   We will simply make this service available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
-* Make it harder to people to contribute to open source projects.
+* Make it harder for people to contribute to open source projects.
 
 ## Threat Models
 
