@@ -86,7 +86,8 @@ provided by the OSSF Technical Advisory Committee
 
 ### Meetings
 
-TODO: Add info on meeting schedule and calendar invitations
+Join the mailing list for the calendar invitation!
+The first meeting is scheduled for August 19th at 9AM Pacific.
 
 ### Communications
 
