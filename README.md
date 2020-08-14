@@ -89,6 +89,8 @@ provided by the OSSF Technical Advisory Committee
 Join the mailing list for the calendar invitation!
 The first meeting is scheduled for August 19th at 9AM Pacific.
 
+The public calendar is available here: https://calendar.google.com/calendar?cid=a3V1NW85a3E2cWp2N3N2YmhtZ29mbnU4YnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+
 ### Communications
 
 We have a public email list available here: https://groups.google.com/forum/#!forum/ossf-wg-developer-identity
