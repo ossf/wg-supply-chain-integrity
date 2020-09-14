@@ -1,10 +1,12 @@
-# WG Developer Identity
+# WG Supply Chain Integrity (Formerly Developer Identity)
 
 This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
 The [Focus](#focus) section below describes what is in and out of scope,
 and [Governance](#governance) section describes how our operations are consistent with OSSF policies with links to more detailed documents.
 
-**Mission:** TODO
+## Objective
+
+Our objective is to enable open source maintainers, contributors and end-users to understand and make decisions on the provenance of the code they maintain, produce and use.
 
 ## Motivation
 
@@ -35,27 +37,24 @@ These problems need solutions!
 
 <img align="right" src="./dog_meme.jpg">
 
-* Give open source maintainers a way to do work under their chosen name, representing their real employers in secure ways.
-* Give open source projects tools and infrastructure to verify the identities of their maintainers.
+* Give open source maintainers a way to do work under their chosen name, and to prevent others from impersonating them.
+* Give open source comunities the tools tools and infrastructure to verify the identities of their maintainers, based on whatever criteria they require.
 * Give consumers of open source libraries more data for determining the risks of depending on said library.
-* Give consumers and maintainers a public record of who implemented changes to an Open Source software project.
+* Give consumers and maintainers a trustworthy public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
 * Give OSS maintainers better ability to ensure that project governance policies (like independent signoff) are followed.
-* Give OSS consumers tools to detect surges in activity from unknown committers.
+* Give OSS consumers tools to detect changes in activity from unknown committers.
+* Allow consumers of open source to examine the full provenance of their open source supply-chains.
+
+For a full list of the threat models we are trying to address, see the [Threat Models](threat_models.md) document.
 
 ### Non Goals
 
-* Enforce or mandate identity requirements for projects.
-  We will simply make this service available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
+* Enforce or mandate identity policy and requirements for projects.
+  We will simply make these services and tools available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
 * Make it harder for people to contribute to open source projects.
-
-## Threat Models
-
-This section contains possible attacks we can try to mitigate, prevent or detect:
-
-* Malicious/Nefarious individuals get maintainer permissions and starts making making commits or pushes to a registry
-* Duplicate accounts, self-reviewing code
-* Identity spoofing: claiming you work for a specific organization that you do not, or are a specific individual that you are not
+* Any kind of formal "vetting" or "verification" program. 
+* Any formal specifications or provenance formats.
 
 ## Necessary Human Use Cases to Support
 
