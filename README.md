@@ -1,4 +1,4 @@
-# WG Supply Chain Integrity (Formerly Developer Identity)
+# WG Developer Identity
 
 This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
 The [Focus](#focus) section below describes what is in and out of scope,
@@ -38,12 +38,12 @@ These problems need solutions!
 <img align="right" src="./dog_meme.jpg">
 
 * Give open source maintainers a way to do work under their chosen name, and to prevent others from impersonating them.
-* Give open source comunities the tools tools and infrastructure to verify the identities of their maintainers, based on whatever criteria they require.
+* Give open source communities the tools tools and infrastructure to verify the identities of their maintainers, based on their chosen criteria.
 * Give consumers of open source libraries more data for determining the risks of depending on said library.
 * Give consumers and maintainers a trustworthy public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
 * Give OSS maintainers better ability to ensure that project governance policies (like independent signoff) are followed.
-* Give OSS consumers tools to detect changes in activity from unknown committers.
+* Give OSS consumers tools to detect changes in activity from unknown contributors.
 * Allow consumers of open source to examine the full provenance of their open source supply-chains.
 
 For a full list of the threat models we are trying to address, see the [Threat Models](threat_models.md) document.
@@ -51,7 +51,7 @@ For a full list of the threat models we are trying to address, see the [Threat M
 ### Non Goals
 
 * Enforce or mandate identity policy and requirements for projects.
-  We will simply make these services and tools available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
+  We will simply make these services, policies, and tools available and easy-to-use, leaving it up to projects and communities to adopt if they choose to do so.
 * Make it harder for people to contribute to open source projects.
 * Any kind of formal "vetting" or "verification" program. 
 * Any formal specifications or provenance formats.
