@@ -1,4 +1,4 @@
-# WG Developer Identity
+# WG Digital Identity Attestation (formerly Developer Identity)
 
 This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
 The [Focus](#focus) section below describes what is in and out of scope,
