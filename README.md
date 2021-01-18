@@ -1,12 +1,10 @@
 # WG Digital Identity Attestation (formerly Developer Identity)
 
 This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
-The [Focus](#focus) section below describes what is in and out of scope,
-and [Governance](#governance) section describes how our operations are consistent with OSSF policies with links to more detailed documents.
 
 ## Objective
 
-Our objective is to enable open source maintainers, contributors and end-users to understand and make decisions on the provenance of the code they maintain, produce and use.
+Our objective is to enable open source maintainers, contributors and end-users to understand and make decisions on the provenance or origin of the code they maintain, produce and use.
 
 ## Motivation
 
