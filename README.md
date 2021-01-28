@@ -4,6 +4,8 @@ This charter describes operations as an [OSSF Technical Initiative](https://gith
 The [Focus](#focus) section below describes what is in and out of scope,
 and [Governance](#governance) section describes how our operations are consistent with OSSF policies with links to more detailed documents.
 
+To get caught up on what this group has been up to, check out this [recap](https://openssf.org/blog/2021/01/27/digital-identity-attestation-roundup/).
+
 ## Objective
 
 Our objective is to enable open source maintainers, contributors and end-users to understand and make decisions on the provenance of the code they maintain, produce and use.
