@@ -45,6 +45,7 @@ These problems need solutions!
 * Give OSS maintainers better ability to ensure that project governance policies (like independent signoff) are followed.
 * Give OSS consumers tools to detect changes in activity from unknown contributors.
 * Allow consumers of open source to examine the full provenance of their open source supply-chains.
+* Allow trust between humans and do not require trusted intermediaries.
 
 For a full list of the threat models we are trying to address, see the [Threat Models](threat_models.md) document.
 
