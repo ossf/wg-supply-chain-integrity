@@ -38,7 +38,7 @@ These problems need solutions!
 <img align="right" src="./dog_meme.jpg">
 
 * Give open source maintainers a way to do work under their chosen name, and to prevent others from impersonating them.
-* Give open source communities the tools tools and infrastructure to verify the identities of their maintainers, based on their chosen criteria.
+* Give open source communities the tools and infrastructure to verify the identities of their maintainers, based on their chosen criteria.
 * Give consumers of open source libraries more data for determining the risks of depending on said library.
 * Give consumers and maintainers a trustworthy public record of who implemented changes to an Open Source software project.
 * Respect the privacy of everyone involved.
