@@ -69,6 +69,7 @@ For a full list of the threat models we are trying to address, see the [Threat M
 
 ## Prior Work
 
+* [OpenPGP proofs](https://metacode.biz/openpgp/proofs) to verify identities on social media and other systems in a decentralized way.
 * Keybase.io had a service to verify identities for social media and send encrypted messages.
   The original system and open source command line program allowed you to get a public key safely, just by knowing a person's username on a social network.
 * [Debian](https://wiki.debian.org/DebianDeveloper/JoinTheProject/NewMember#Step_4:_Identification) generally requires identity verification of maintainers/developers.
