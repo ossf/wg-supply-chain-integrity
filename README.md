@@ -62,6 +62,7 @@ For a full list of the threat models we are trying to address, see the [Threat M
 * Aggregate identities in multiple systems in a single signature
 * Change name, want to carry over identity
 * Change name, do not want to carry over identity
+* Work under a pseudonym to protect oneself, e.g. from discrimination, harassment, or stalking
 * Expiration on attestations? (I checked this email at time X, need to re-verify every Y months)
 * Explicit revocation of attestations (Y no longer works for X)
 * Rotate key for one/all systems
