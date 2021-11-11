@@ -1,8 +1,18 @@
-# WG Digital Identity Attestation (formerly Developer Identity)
+# Supply Chain Integrity WG (formberly Digital Identity Attestation and Developer Identity WG)
 
 This charter describes operations as an [OSSF Technical Initiative](https://github.com/ossf/tac/blob/master/charters/).
 
 To get caught up on what this group has been up to, check out this [recap](https://openssf.org/blog/2021/01/27/digital-identity-attestation-roundup/).
+
+## Current activities
+
+* [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
+
+
+## Note: Transition in progress!
+
+This working group has decided to rename itself the "Supply Chain Integrity WG" and the OpenSSF TAC has approved.
+The text below will be revised, but we haven't gotten there yet!
 
 ## Objective
 
