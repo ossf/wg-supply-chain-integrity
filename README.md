@@ -101,19 +101,23 @@ provided by the OSSF Technical Advisory Committee
 
 ### Meetings
 
-Join the mailing list for the calendar invitation!
-
 The public calendar is available here: https://calendar.google.com/calendar/r?cid=czYzdm9lZmhwNWk5cGZsdGI1cTY3bmdwZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+Subscribe to the calendar for meeting details.
 
 ### Communications
 
-We have a public email list available here: https://groups.google.com/forum/#!forum/ossf-wg-developer-identity
+We have a public email list available here: https://lists.openssf.org/g/openssf-supply-chain-integrity
+See Google Groups for past archive: https://groups.google.com/forum/#!forum/ossf-wg-developer-identity
+
+You can also join our Slack channel at https://openssf.slack.com/messages/wg_supply_chain_integrity
 
 #### Notes and Agendas
 
 Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1xPs2sSbH3I9Ich7OyLOzl85oJshnK8Q6WoAgREE5-zA/edit). (Join the group above to edit.)
 
 ## Governance
+
+This WG is chaired by Kim Lewandowski and Dan Lorenc.
 
 Full details of process and roles are linked from [governance README](/governance).
 
