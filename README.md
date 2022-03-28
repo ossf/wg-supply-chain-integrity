@@ -18,7 +18,7 @@ You can also join our Slack channel at https://openssf.slack.com/messages/wg_sup
 
 ## Meetings
 
-The working group meets every other Wednesday at 9 AM Pacific. The public calendar is available here: https://calendar.google.com/calendar/r?cid=czYzdm9lZmhwNWk5cGZsdGI1cTY3bmdwZXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ
+The working group meets every other Wednesday at 9 AM Pacific. The public calendar is available here: https://calendar.google.com/calendar/embed?src=s63voefhp5i9pfltb5q67ngpes%40group.calendar.google.com&ctz=America%2FLos_Angeles
 
 Subscribe to the calendar for meeting details.
 
