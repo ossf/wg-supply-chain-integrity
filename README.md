@@ -25,7 +25,7 @@ Subscribe to the calendar for meeting details.
 Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1xPs2sSbH3I9Ich7OyLOzl85oJshnK8Q6WoAgREE5-zA/edit). (Join the group listed under communications to edit.)
 
 ## Documents
-Documents for the working group can be found in the following Google Drive location: 
+Documents for the working group can be found in the following Google Drive location:
 https://drive.google.com/drive/folders/14VpLCYYAEZt1OQn490ajBg28TKXNPuUJ?usp=sharing
 
 Documents include the following:
@@ -40,12 +40,12 @@ Documents include the following:
 
 ## Governance
 
-This WG is chaired by Kim Lewandowski and Dan Lorenc
+This WG is chaired by Kim Lewandowski and Dan Lorenc.
 
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
 
-Full details of process and roles are linked from [governance README](/governance).
+The [CHARTER.md](https://github.com/ossf/wg-wg-supply-chain-integrity/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
 
 ## Antitrust policy
 
