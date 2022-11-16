@@ -38,6 +38,7 @@ Documents include the following:
   * [Recap](https://openssf.org/blog/2021/01/27/digital-identity-attestation-roundup/)
 * [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
 * [Factory for Repeatable Secure Creation of Aertifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
+* [Secure Supply Chain Consumption Framework (S2C2F) Special Interest Group (SIG(](https://github.com/ossf/s2c2f)
 
 ## Governance
 
