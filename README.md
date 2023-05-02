@@ -43,7 +43,7 @@ Older activities (as Digital Identity Attestation WG):
 
 ## Governance
 
-This WG is chaired by Kim Lewandowski and Dan Lorenc
+This WG is chaired by Isaac Hepworth. Melba Lopez and Jay White are co-chairs.
 
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
