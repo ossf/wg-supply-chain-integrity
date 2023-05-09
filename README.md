@@ -16,11 +16,13 @@ See Google Groups for past archive: https://groups.google.com/forum/#!forum/ossf
 
 You can also join our Slack channel at https://openssf.slack.com/messages/wg_supply_chain_integrity
 
-## Meetings
+## Meetings Times
 
 The working group meets every other Wednesday at 9 AM Pacific. The public calendar is available here: https://calendar.google.com/calendar/embed?src=s63voefhp5i9pfltb5q67ngpes%40group.calendar.google.com&ctz=America%2FLos_Angeles
 
 Subscribe to the calendar for meeting details.
+
+## Meetings Notes
 
 Meeting Notes and Agendas are available on [Google Drive](https://docs.google.com/document/d/1xPs2sSbH3I9Ich7OyLOzl85oJshnK8Q6WoAgREE5-zA/edit). (Join the group listed under communications to edit.)
 
@@ -50,7 +52,7 @@ Working Group operations are consistent with standard operating guidelines provi
 
 Full details of process and roles are linked from [governance README](/governance).
 
-## Antitrust policy
+## Antitrust Policy Notice
 
 Linux Foundation meetings involve participation by industry competitors, and it is the intention of the Linux Foundation to conduct all of its activities in accordance with applicable antitrust and competition laws. It is therefore extremely important that attendees adhere to meeting agendas, and be aware of, and not participate in, any activities that are prohibited under applicable US state, federal or foreign antitrust and competition laws.
 
