@@ -1,5 +1,7 @@
 # OpenSSF Supply Chain Integrity WG Charter
 
+_**June 2023:** We look to share the current Charter with the OpenSSF TAC within the next few weeks.  We hope to get approval from the TAC by end of July._
+
 _**April 2023:** We’re working within the SCI WG to refine this document to the point where it represents community consensus on our group’s priorities and direction. As we near the point of agreement we aim to share with the OpenSSF TAC for feedback before formal adoption._
 
 ## About this document
@@ -75,6 +77,7 @@ We will use the principles below to guide us. In some cases we will stray from d
   * Focus on Open Source solutions, implementation, and adoption 
     * The SCI WG _framework_ will be applicable beyond Open Source, but we’ll leave solutions for closed-source implementation and adoption to others, e.g., commercial tool vendors
     * We anticipate SCI attestations and SCI-driven policy will flow transitively into closed source ecosystems, through the near-ubiquitous ingestion of Open Source dependencies.
+    * We will collaborate with [OpenSSF's Sterling Toolchain](https://docs.google.com/document/d/1H3Nk0PwmylLg5F7pqrIvyKzTyXAll0-f50B7DdqOh4A/edit#heading=h.9m0zi4b0wnne) efforts to ensure alignment.
 
   * Draft off OpenSSF momentum
     * Reuse work already in flight elsewhere in the OpenSSF ecosystem. For instance, the Best Practices WG is developing a glossary and vocab which we should snap to.
@@ -135,7 +138,7 @@ Proposed priorities for OpenSSF Supply Chain Integrity WG the coming year:
   * Major OSS projects on-boarded, generating and distributing provenance
     * Idea: start with OpenSSF projects
 
-*** Create momentum with Dependencies**
+* **Create momentum with Dependencies**
  With S2C2F now in OpenSSF, begin to [close some key gaps](https://docs.google.com/document/d/1Cp7TOVx7hWwxKGebWWPn4sGVIIbYSwR0-mWdwBO45po/edit#heading=h.y37mdlsrg0tq):
   * Awareness and adoption; education, outreach, calls for participation, collaboration with key partners in OpenSSF
   * Attestations and metadata; standardize contents and formats; explore distribution and discovery
@@ -144,7 +147,7 @@ Proposed priorities for OpenSSF Supply Chain Integrity WG the coming year:
 * Enable adoption with Tooling
 _[Need to decide how to approach this. Should tooling be consolidated SCI-wide? OpenSSF-wide? Or be owned by individual SIGs? E.g., slsa-tooling, s2c2f-tooling, sbom-tooling, etc.]_
 
-* **Define SCI WG umbrella framework and begin standardization of the next functional area **
+* **Define SCI WG umbrella framework and begin standardization of the next functional area**
   * Sketch, scope, and position uber-framework. Figure out how SLSA and S2C2F will naturally up-scope into this larger setting.
     * This will necessarily depend on the problem statement above, anchoring all of this work.
   * Requirements definition for Vulnerability Management
