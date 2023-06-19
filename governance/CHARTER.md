@@ -51,7 +51,7 @@ We envision a future with:
     * Artifacts crossing supply chain boundaries are annotated with security-relevant metadata
     * Data-driven control points are enabled throughout the supply chain
     * Standard toolchains support generation of, and policy decisioning on, supply chain metadata
-    * An explicit threat model with consumer-selected trust anchors: those doing the trusting can decide who to trust, on on what basis (including regulatory constraints)
+    * An explicit threat model with consumer-selected trust anchors: those doing the trusting can decide who to trust, and on what basis (including regulatory constraints)
 
 
   * **Ubiquitous adoption of the framework in Open Source**, with improved security posture as a result.
