@@ -24,11 +24,11 @@ Subscribe to the calendar for meeting details.
 
 ## Meetings Notes
 
-Meeting Notes and Agendas are available on [Google Drive](docs.google.com/document/d/1vhun-GyAiVPWWYFuRUlBUZA_jQGt9Bi9WizoQ35jGL0). 
+Meeting Notes and Agendas are available on [Google Drive]([docs.google.com/document/d/1vhun-GyAiVPWWYFuRUlBUZA_jQGt9Bi9WizoQ35jGL0](https://docs.google.com/document/d/1moVFPn5pLi-uGs840_YBCrwdpHajU0ptFmlL4F9GryQ/edit?usp=sharing)). 
 
 ## Documents
-Documents for the working group can be found in the following Google Drive location: 
-https://drive.google.com/drive/folders/14VpLCYYAEZt1OQn490ajBg28TKXNPuUJ?usp=sharing
+Documents for the working group can be found in the following [Google Drive location](https://docs.google.com/document/d/1moVFPn5pLi-uGs840_YBCrwdpHajU0ptFmlL4F9GryQ/edit?usp=sharing): 
+
 
 Documents include the following:
 * [User Stories](https://docs.google.com/document/d/1_TQizML8sXAm3OdoNA_plihZ14OHng_XRvJXKv_o_bs/edit?usp=sharing)
