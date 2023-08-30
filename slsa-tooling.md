@@ -29,7 +29,7 @@ We currently don't have any regular meetings. You can consult the [Meeting Notes
 
 ## Governance
 
-This project is part of the [Supply Chain Integrity WG](README.md) alongside [SLSA](https://github.com/slsa-framework/slsa) among otherss.
+This project is part of the [Supply Chain Integrity WG](README.md) alongside [SLSA](https://github.com/slsa-framework/slsa) among others.
 
 ## Antitrust Policy
 
