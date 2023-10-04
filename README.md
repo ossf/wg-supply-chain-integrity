@@ -40,6 +40,7 @@ Documents include the following:
 * [Factory for Repeatable Secure Creation of Artifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
 * [Secure Supply Chain Consumption Framework (S2C2F) Special Interest Group (SIG)](https://github.com/ossf/s2c2f)
 * Supply Chain Integrity Positioning Special Interest Group (SIG)
+* [gittuf: A security layer for Git repositories](https://github.com/gittuf/gittuf)
 
 Older activities (as Digital Identity Attestation WG):
   * [Former Digital Identity Attestation WG Readme](https://github.com/ossf/wg-supply-chain-integrity/blob/0804679461f7ed288d50d70da7ae9c7152b1e51d/README.md)
