@@ -35,7 +35,7 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 * [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
 * [SLSA Tooling Project](slsa-tooling.md)
 * [Factory for Repeatable Secure Creation of Artifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
-* [Secure Supply Chain Consumption Framework (S2C2F) Special Interest Group (SIG)](https://github.com/ossf/s2c2f)
+* [Secure Supply Chain Consumption Framework (S2C2F)](https://github.com/ossf/s2c2f)
 * Supply Chain Integrity Positioning Special Interest Group (SIG)
 * [gittuf: A security layer for Git repositories](https://github.com/gittuf/gittuf)
 
