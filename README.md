@@ -38,6 +38,7 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 * [Secure Supply Chain Consumption Framework (S2C2F)](https://github.com/ossf/s2c2f)
 * Supply Chain Integrity Positioning Special Interest Group (SIG)
 * [gittuf: A security layer for Git repositories](https://github.com/gittuf/gittuf)
+* [Graph for Understanding Artifact Composition (GUAC)](https://guac.sh) - see also the [GUAC repository](https://github.com/guacsec/guac)
 
 Older activities (as Digital Identity Attestation WG):
   * [Former Digital Identity Attestation WG Readme](https://github.com/ossf/wg-supply-chain-integrity/blob/0804679461f7ed288d50d70da7ae9c7152b1e51d/README.md)
