@@ -46,7 +46,7 @@ Older activities (as Digital Identity Attestation WG):
 
 ## Governance
 
-This WG is chaired by Isaac Hepworth. Melba Lopez and Jay White are co-chairs.
+This WG is currently chaired by interim co-chairs Nicole Bates, Justin Cappos, and Michael Lieberman.
 
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
