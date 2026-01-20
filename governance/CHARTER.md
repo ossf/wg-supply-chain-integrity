@@ -1,29 +1,14 @@
-# OpenSSF Supply Chain Integrity WG Charter
+## Technical Charter for Open Source Security Foundation 
 
-_**June 2023:** We look to share the current Charter with the OpenSSF TAC within the next few weeks.  We hope to get approval from the TAC by end of July._
+## Supply Chain Integrity Working Group
 
-_**April 2023:** We’re working within the SCI WG to refine this document to the point where it represents community consensus on our group’s priorities and direction. As we near the point of agreement we aim to share with the OpenSSF TAC for feedback before formal adoption._
+### Adopted 6 March, 2024
 
-## About this document
+This Technical Charter sets forth the responsibilities and procedures for technical contribution to, and oversight of, the OpenSSF Supply Chain Integrity Working Group open source community, which has been established as a Working Group (the "Technical Initiative") under the Open Source Security Foundation (the “OpenSSF”).  All contributors (including committers, maintainers, and other technical positions) and other participants in the Technical Initiative (collectively, “Collaborators”) must comply with the terms of this Technical Charter and the OpenSSF Charter. 
 
-This document outlines a high-level summary of _a proposal_ for **OpenSSF Supply Chain Integrity WG’s direction as we progress through 2023.**
+## 1. Mission and Scope of the Technical Initiative
 
-The Mission and Vision are **intentionally expansive**, and anticipate years of work taking us beyond our progress to date.
-
-## Problem
-Modern software is componentized by nature, and its assembly usually involves parts provided by external suppliers (e.g., open or closed source libraries).
-
-Today it is hard or impossible for those depending on externally supplied components to evaluate their inherent security features, or infer characteristics from the security-related procedures that were used in their creation. Any assessments that are possible are ad-hoc, and therefore hard or impossible to automate and reason about at scale.
-
-Without the ability to assess the security properties of upstream components it is hard or impossible to:
-  * Quantify the risk of their use.
-  * Reason about the risk of their use.
-  * Manage and mitigate the risk of their use.
-  * Systematically reduce the risk of their use.
-
-## Mission
-**Proposed SCI WG mission:**
-      _Scalable standardized attestable practices for supply chain security_
+_Scalable standardized attestable practices for supply chain security_
 
 Scalable:
   * A uniform approach across languages and ecosystems
@@ -40,116 +25,99 @@ Attestable:
   * Representable in machine-readable interchange formats
   * Explicitly anchorable in appropriate roots of trust
 
-## Vision
-We envision a future with:
+## 2. Technical initiative roles
 
-  * A **pragmatic supply chain security framework** covering key functional areas
-    * An ergonomic decomposition of the problem space at the altitude of Build, Provenance, Dependencies, Source, and so on.
-    * Incrementally attainable levels that have a clear progression between each, enable explicit decisions around what level to aim for, and allow adopters to get started easily 
-    * Designed for the real world; adoptable in practice (e.g., FRSCA); deployable in enterprise contexts
+- a. The primary points of contact are the lead and co-lead of the Technical Initiative, who are listed in the [slack channel](https://openssf.slack.com/archives/C01A1MA7A1K).
 
+- b. The Technical Initiative generally will involve Collaborators and Contributors. The Technical Initiative may adopt or modify additional roles so long as the roles are documented in the Technical Initiative’s repository. Unless otherwise documented:
 
-  * Upstream security practices **universally evaluable by downstream policy**
-    * Artifacts crossing supply chain boundaries are annotated with security-relevant metadata
-    * Data-driven control points are enabled throughout the supply chain
-    * Standard toolchains support generation of, and policy decisioning on, supply chain metadata
-    * An explicit threat model with consumer-selected trust anchors: those doing the trusting can decide who to trust, and on what basis (including regulatory constraints)
+  - i. Contributors include anyone in the technical community that contributes effort, ideas, code, documentation, or other artifacts to the Technical Initiative;
 
+  - ii. Collaborators are Contributors who have earned the ability to modify ("commit") text, source code, documentation or other artifacts in the Technical Initiative’s repository or direct the agenda or working activities of the Technical Initiative; and
 
-  * **Ubiquitous adoption of the framework in Open Source**, with improved security posture as a result.
+  - iii. A Contributor may become a Collaborator by majority approval of the existing Collaborators. A Collaborator may be removed by majority approval of the other existing Collaborators.
 
-We anticipate an uplift in overall end-to-end security through:
-  * **Upstream adoption** of robust security practice, in line with the framework we define
-  * **Downstream risk control** using policy driven by upstream attestations of practice implementation
+  - iv. Maintainers are the initial Collaborators defined at the creation of the Technical Initiative. The Maintainers will determine the process for selecting future Maintainers. A Maintainer may be removed by two-thirds approval of the other existing Maintainers, or a majority of the other existing Collaborators.
 
-## Strategy and Principles
-We will use the principles below to guide us. In some cases we will stray from direct adherence but we’ll aim to only do so knowingly, with good reason.
+- d. Participation in the Technical Initiative through becoming a Contributor, Collaborator, or Maintainer is open to anyone, whether an OpenSSF member or not, so long as they abide by the terms of this Technical Charter.
 
-  * Disappear into the infrastructure 
-    * Web users don’t have to worry about, or even think too consciously about, SSL. This is what supply chain security should look like to producers and consumers.
+- e. The Technical Initiative collaboratively manages all aspects of oversight relating to the Technical Initiative, which may include:
 
-  * Target shared technical infrastructure as a strategic point of leverage
-    * Package managers: these form a critical trust boundary between open source producers and consumers.
-    * Widespread developer tools, CI/CD systems, operating systems: build atop common platforms and toolchains.
+  - i. coordinating the direction of the Technical Initiative;
 
-  * Anchor trust in tools and systems, not processes and people
+  - ii. approving, organizing or removing activities and projects;
 
-  * Focus on Open Source solutions, implementation, and adoption 
-    * The SCI WG _framework_ will be applicable beyond Open Source, but we’ll leave solutions for closed-source implementation and adoption to others, e.g., commercial tool vendors
-    * We anticipate SCI attestations and SCI-driven policy will flow transitively into closed source ecosystems, through the near-ubiquitous ingestion of Open Source dependencies.
-    * We will collaborate with [OpenSSF's Sterling Toolchain](https://docs.google.com/document/d/1H3Nk0PwmylLg5F7pqrIvyKzTyXAll0-f50B7DdqOh4A/edit#heading=h.9m0zi4b0wnne) efforts to ensure alignment.
+  - iii. establish community norms, workflows, processes, release requirements, and templates for the operation of the Technical Initiative;
 
-  * Draft off OpenSSF momentum
-    * Reuse work already in flight elsewhere in the OpenSSF ecosystem. For instance, the Best Practices WG is developing a glossary and vocab which we should snap to.
+  - iv. establish a fundraising model, and approve or modify a Technical Initiative budget, subject to OpenSSF Governing Board approval;
 
-  _[…lots more needed here, including details on stakeholders and benefits to each]_
+  - v. appointing representatives to work with other open source or open standards communities;
 
-## Looking back on 2022
-A very brief snapshot of where we’re at, closing on the end of 2022:
+- f. The Technical Initiative lead is responsible for
 
-* **Build** and **Provenance** (SLSA)
-  * SLSA standardizes secure practices for Build and Provenance, and an associated attestation format
-  * We anticipate a 1.0 specification in early 2023
-  * We close the year with some better clarity around SLSA/SBOM and SLSA/SSDF
-  * We have standalone SLSA builders and verifiers in place across languages
-    * GitHub Actions and Google Cloud Build can both generate SLSA provenance
-  * npm is implementing SLSA and Sigstore for end-to-end integrity of Node packages
-  * We have limited traction with SLSA provenance for policy decisioning
-    * e.g., Chainguard Enforce for k8s admissions control
-  * We have limited Open Source products shipping with SLSA provenance
-    * e.g., SUSE Linux, Flatcar Linux, Chainguard Images, Google Assured OSS
+  - i. facilitating discussions, seeking consensus, and where necessary, voting on technical matters relating to the Technical Initiative; and
+
+  - ii. coordinating any communications regarding the Technical Initiative.
+
+  - iii. approving and implementing policies and processes for contributing (to be published in the Technical Initiative repository) and coordinating with the Linux Foundation to resolve matters or concerns that may arise as set forth in Section 6 of this Technical Charter;
+
+- g. The Technical Initiative co-lead is supporting the lead in their duties. In the absence of the lead, they can
+
+  - i. facilitate discussions, seek consensus, and where necessary, vote on technical matters relating to the Technical Initiative; and
+
+  - ii. coordinate any communications regarding the Technical Initiative.
+
+## 3. Voting
+
+- a. While the Technical Initiative aims to operate as a consensus-based community, if any decision requires a vote to move the Technical Initiative forward, the Technical Initiative will vote on a one vote per member basis.
+
+- b. Quorum for Technical Initiative meetings requires at least fifty percent of Collaborators to be present.
 
 
-* **Dependencies** (S2C2F)
-  * S2C2F formally joined OpenSSF in October 2022 and standardizes secure practices for ingesting open source software into developer workflows
-    * No associated attestation format yet
-  * We are focusing on increasing awareness about our initiative as a recent OpenSSF joiner
-    * We recognize that there are opportunities for collaboration within the OpenSSF, so we are consolidating a strategy
-    * We will also be presenting the S2C2F at various engagements in early 2023
-	
-* **Source** (formerly SLSA)
-  * Secure practices for Source management were taken out of scope for SLSA 1.0
+- c. Decisions by vote at a meeting require a majority vote of those in attendance, provided quorum is met. Decisions made by electronic vote without a meeting require a majority vote of Collaborators.
 
-* **Reference toolchain** (FRSCA)
-  * In addition we have a Factory for Repeatable Secure Creation of Artifacts (FRSCA), an open source reference implementation across [some subset of our practices].
+- d. In the event a vote cannot be resolved by the Technical Initiative, the group lead may refer the matter to the TAC for assistance in reaching a resolution.
 
-## 2023 Priorities
-Proposed priorities for OpenSSF Supply Chain Integrity WG the coming year:
+## 4. Compliance with Policies
 
-* **Establish and cement community intention around Mission and Vision**
-  * Define our community, e.g., in concentric rings. Who is in ring 0? Ring 1? And so on.
-    * OpenSSF WGs
-    * Others in LF (e.g., DBoM)
-    * CDF, CNCF
-    * IETF (including SCITT)
-  * Circulate and socialize a version of this document with the community
-  * Generate buy-in and commitment to the long-term direction and near-term priorities
-  * Assess community health; plan and deliver tune-ups. Where do we need more participation?
-  * Develop specific outreach plan for community expansion. Which companies would we like to be involved, and how do we reach them?
-    * We need to be cognizant of our own biases as we undertake this exercise. Community should be inclusive and not about favorites.
-    * OpenSSF has some prior art and thinking we might leverage
+- a. This Technical Charter is subject to the OpenSSF Charter and any rules or policies established for all Technical Initiatives.
 
-* **Exponentiate traction with Build and Provenance**
-  Land the first version of SLSA more substantively, with an approved specification and end-to-end implementation in major ecosystems.
-  * Specification to 1.0
-  * First end-to-end package manager implementations
-  * Key tooling components in place — foundations for more scalable implementations
-    * Triangulate with FRSCA and [Sterling Toolchain](https://docs.google.com/document/d/1z4YxuT6yzbgrNlUpgTbJhuKv5ngdsd6O8Dz5yRTepgs/edit#heading=h.r17cemgdt4tw) concept
-  * Major OSS projects on-boarded, generating and distributing provenance
-    * Idea: start with OpenSSF projects
+- b. The Technical Initiative participants must conduct their business in a professional manner, subject to the Contributor Covenant Code of Conduct 2.0, available at [https://www.contributor-covenant.org/version/2/0/code_of_conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/). The TSC may adopt a different code of conduct ("CoC") for the Technical Initiative, subject to approval by the TAC.
 
-* **Create momentum with Dependencies**
- With S2C2F now in OpenSSF, begin to [close some key gaps](https://docs.google.com/document/d/1Cp7TOVx7hWwxKGebWWPn4sGVIIbYSwR0-mWdwBO45po/edit#heading=h.y37mdlsrg0tq):
-  * Awareness and adoption; education, outreach, calls for participation, collaboration with key partners in OpenSSF
-  * Attestations and metadata; standardize contents and formats; explore distribution and discovery
-  * Tools for automatic assessment and attestation of conformance
+- c. All Collaborators must allow open participation from any individual or organization meeting the requirements for contributing under this Technical Charter and any policies adopted for all Collaborators by the TSC, regardless of competitive interests. Put another way, the Technical Initiative community must not seek to exclude any participant based on any criteria, requirement, or reason other than those that are reasonable and applied on a non-discriminatory basis to all Collaborators in the Technical Initiative community. All activities conducted in the Technical Initiative are subject to the Linux Foundation’s Antitrust Policy, available at [https://www.linuxfoundation.org/antitrust-policy](https://www.linuxfoundation.org/antitrust-policy/).
 
-* Enable adoption with Tooling
-_[Need to decide how to approach this. Should tooling be consolidated SCI-wide? OpenSSF-wide? Or be owned by individual SIGs? E.g., slsa-tooling, s2c2f-tooling, sbom-tooling, etc.]_
+- d. The Technical Initiative will operate in a transparent, open, collaborative, and ethical manner at all times. The output of all Technical Initiative discussions, proposals, timelines, decisions, and status should be made open and easily visible to all. Any potential violations of this requirement should be reported immediately to the TAC.
 
-* **Define SCI WG umbrella framework and begin standardization of the next functional area**
-  * Sketch, scope, and position uber-framework. Figure out how SLSA and S2C2F will naturally up-scope into this larger setting.
-    * This will necessarily depend on the problem statement above, anchoring all of this work.
-  * Requirements definition for Vulnerability Management
-    * Assessment of attestation approach; how much is automatable, trust-in-tool, etc?
-    * Extension of policy model beyond Build and Provenance
+## 5. Community Assets
+
+- a. The Linux Foundation will hold title to all trade or service marks used by the Technical Initiative ("Technical Initiative Trademarks"), whether based on common law or registered rights. Technical Initiative Trademarks may be transferred and assigned to LF Technical Initiatives to hold on behalf of the Technical Initiative. Any use of any Technical Initiative Trademarks by Collaborators in the Technical Initiative will be in accordance with the trademark usage policy of the Linux Foundation, available at [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage/), and inure to the benefit of the Linux Foundation.
+
+- b. The Linux Foundation or Technical Initiative must own or control the repositories, social media accounts, and domain name registrations created for use by the Technical Initiative community.
+
+- c. Under no circumstances will the Linux Foundation be expected or required to undertake any action on behalf of the Technical Initiative that is inconsistent with the policies or tax-exempt status or purpose, as applicable, of the Linux Foundation.
+
+## 6. Intellectual Property Policy
+
+- a. Collaborators acknowledge that the copyright in all new contributions will be retained by the copyright holder as independent works of authorship and that no contributor or copyright holder will be required to assign copyrights to the Technical Initiative.
+
+- b. Except as described in Section 6.c., all contributions to the Technical Initiative are subject to the following:
+
+  - i. All new inbound code contributions to the Technical Initiative must be made using the Apache License, Version 2.0, available at [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0) (the "Technical Initiative License").
+
+  - ii. All new inbound code contributions must also be accompanied by a Developer Certificate of Origin ([http://developercertificate.org](http://developercertificate.org)) sign-off in the source code system that is submitted through a TSC-approved contribution process which will bind the authorized contributor and, if not self-employed, their employer to the applicable license;
+
+  - iii. All outbound code will be made available under the Technical Initiative License.
+
+  - iv. Documentation will be received and made available by the Technical Initiative under the Creative Commons Attribution 4.0 International License, available at [http://creativecommons.org/licenses/by/4.0/](http://creativecommons.org/licenses/by/4.0/).
+
+  - v. To the extent a contribution includes or consists of data, any rights in such data shall be made available under the CDLA-Permissive 1.0 License.
+
+  - vi. The Technical Initiative may seek to integrate and contribute back to other open source projects ("Upstream Projects"). In such cases, the Technical Initiative will conform to all license requirements of the Upstream Projects, including dependencies, leveraged by the Technical Initiative. Upstream Project code contributions not stored within the Technical Initiative’s main code repository will comply with the contribution process and license terms for the applicable Upstream Project.
+
+- c. The Technical Initiative may approve the use of an alternative license or licenses for inbound or outbound contributions on an exception basis. To request an exception, please describe the contribution, the alternative open source license(s), and the justification for using an alternative open source license for the Technical Initiative. License exceptions must be approved by a two-thirds vote of the entire Governing Board.
+
+- d. Contributed files should contain license information, such as SPDX short form identifiers, indicating the open source license or licenses pertaining to the file.
+
+## 7. Amendments
+
+- a. This charter may be amended by a two-thirds vote of Collaborators and is subject to approval by the TAC.
