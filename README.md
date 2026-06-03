@@ -1,12 +1,18 @@
 # Supply Chain Integrity WG
 
-## Objective
+> **Maintainers — start here:** the SCI WG is being repositioned (Q3 2026) as the OpenSSF maintainer front door. See the [Maintainer Enablement design doc](./MAINTAINER-ENABLEMENT.md) and the proposed [Charter v2.0](./governance/CHARTER.md). Comments and contributions welcome on the mailing list and in `#wg_supply_chain_integrity` on the OpenSSF Slack.
 
-The objective of the Supply Chain Integrity Working Group (WG) is to provide a global community for collaborating to help individuals and organizations assess and improve the security of end-to-end supply chains for open source software.
+## Mission
+
+**Make adopting OpenSSF security tooling the easy default for open-source maintainers.**
+
+The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF "Producer Enablement" pillar and the OSPS Baseline into a low-friction adoption path.
+
+The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
 
 ## Motivation
 
-Supply chain issues and attacks cause significant damage worldwide including lost revenue, costs of ransomware payments, costs of mitigation, denial of access to resources, reduced customer trust, and public deception. As a matter of public trust, governments are beginning to mandate actions aimed at improving the security and integrity of supply chains. The [US White House Executive Order on Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) is one such example.
+OpenSSF has produced an impressive surface area of tools, frameworks, and specifications — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more. Adoption by the open-source maintainers these tools are built for remains uneven: a fragmented landscape, dozens of overlapping artifacts, unclear sequencing, no shared on-ramp. The revamped SCI WG exists to close that gap. See [`MAINTAINER-ENABLEMENT.md`](./MAINTAINER-ENABLEMENT.md) for the full design.
 
 ## Communications
 
@@ -30,16 +36,20 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 
 * [User Stories](https://docs.google.com/document/d/1_TQizML8sXAm3OdoNA_plihZ14OHng_XRvJXKv_o_bs/edit?usp=sharing)
 
-## Activities
+## Sponsored Technical Initiatives
+
+Under the [Charter v2.0](./governance/CHARTER.md), the WG's operating relationship to its sponsored TIs is **enablement-driven**: each TI articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return.
 
 * [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
 * [SLSA Tooling Project](slsa-tooling.md)
 * [Factory for Repeatable Secure Creation of Artifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
 * [Secure Supply Chain Consumption Framework (S2C2F)](https://github.com/ossf/s2c2f)
-* Supply Chain Integrity Positioning Special Interest Group (SIG)
-* [gittuf: A security layer for Git repositories](https://github.com/gittuf/gittuf)
+* [gittuf: verifiable security governance for git repositories](https://github.com/gittuf/gittuf)
 * [Graph for Understanding Artifact Composition (GUAC)](https://guac.sh) - see also the [GUAC repository](https://github.com/guacsec/guac)
 * [Zarf: Secure Software Delivery to Disconnected Systems](https://zarf.dev) - see also the [Zarf repository](https://github.com/zarf-dev/zarf)
+* [SBOMit](https://github.com/SBOMit) — attestation-based SBOM accuracy
+
+The Supply Chain Integrity Positioning SIG has been [sunset](./positioning-sig/README.md) as part of the v2.0 refocus; its outreach function is now central to the WG itself.
 
 Older activities (as Digital Identity Attestation WG):
   * [Former Digital Identity Attestation WG Readme](https://github.com/ossf/wg-supply-chain-integrity/blob/0804679461f7ed288d50d70da7ae9c7152b1e51d/README.md)
@@ -52,9 +62,9 @@ This WG is currently chaired by interim co-chairs Nicole Bates, Justin Cappos, a
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
 
-Full details of process and roles are linked from [governance README](/governance).
-
-New SCI WG Charter can be read from [governance CHARTER](/governance/CHARTER.MD)
+- **Charter (proposed v2.0):** [`governance/CHARTER.md`](./governance/CHARTER.md) — submitted to the TAC per the [Q2 2026 WG report](https://github.com/ossf/tac/pull/614).
+- **Maintainer Enablement design doc:** [`MAINTAINER-ENABLEMENT.md`](./MAINTAINER-ENABLEMENT.md) — the "why and how" of the refocus; year-one deliverables, success metrics, sibling-WG handoff lines.
+- **Governance process:** [`governance/README.md`](./governance/README.md).
 
 ## Antitrust Policy Notice
 
