@@ -47,7 +47,7 @@ Older activities (as Digital Identity Attestation WG):
 
 ## Governance
 
-This WG is currently chaired by interim co-chairs Nicole Bates, Justin Cappos, and Michael Lieberman.
+This WG is currently chaired by interim co-chairs Nicole Bates, Justin Cappos, Stephen Augustus, and Adolfo García Veytia (puerco) .
 
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
