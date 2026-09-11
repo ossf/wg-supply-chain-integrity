@@ -6,10 +6,9 @@ what the role involves and what to set up in your first few weeks. It is
 linked upstream [OpenSSF TAC](https://github.com/ossf/tac) documents.
 
 > This guide is written to be reusable by any OpenSSF Working Group, not just
-> this one. Everything through [Getting help](#getting-help) is generic;
-> WG-specific links live in [This WG's specifics](#this-wgs-specifics) at the
-> bottom. If you're reading this from another WG's repo, replace that section
-> and the WG name above.
+> this one — it deliberately doesn't repeat this WG's specific links (mailing
+> list, Slack, calendar, roster, lifecycle stage). Those live in this repo's
+> top-level README and stay current there rather than in a second copy here.
 
 ## What the role involves
 
@@ -87,19 +86,3 @@ no one owns them:
 * Your WG's **TAC sponsor** — assigned at Sandbox stage, remains a resource through Incubating
 * **OpenSSF staff** — reachable via `operations@openssf.org` or the `#openssf-operations` Slack channel
 * Other WG chairs — the fastest way to learn what's normal is to ask someone doing the same job elsewhere
-
----
-
-## This WG's specifics
-
-*(Supply Chain Integrity WG)*
-
-* **Current lifecycle stage:** Incubating — see the [TAC README](https://github.com/ossf/tac/blob/main/README.md) for the up-to-date stage
-* **OpenSSF Staff Contact:** Kris Borchers (per the TAC README's "Staff Contact" column — distinct from the TAC Sponsor role)
-* **TAC Sponsor:** TBD — see [README](/README.md#governance)
-* **Mailing list:** <https://lists.openssf.org/g/openssf-supply-chain-integrity>
-* **Slack:** [#wg_supply_chain_integrity](https://openssf.slack.com/messages/wg_supply_chain_integrity)
-* **Calendar:** every other Wednesday, 9 AM Pacific — [subscribe here](https://calendar.google.com/calendar/embed?src=s63voefhp5i9pfltb5q67ngpes%40group.calendar.google.com&ctz=America%2FLos_Angeles)
-* **Meeting notes:** [Google Drive](https://docs.google.com/document/d/1moVFPn5pLi-uGs840_YBCrwdpHajU0ptFmlL4F9GryQ/edit)
-* **Roster:** [README](/README.md#governance)
-* **Charter:** [CHARTER.md](CHARTER.md) — flagged in-repo as due for a refresh; worth doing early in your term
