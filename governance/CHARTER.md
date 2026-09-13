@@ -10,7 +10,7 @@ The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group
 
 OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and others, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open-source projects these tools are mostly built for. Maintainers face overlapping artifacts, unclear sequencing, and no single OpenSSF venue chartered to make adoption easier.
 
-The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) names "Producer Enablement" as a strategic pillar, and the [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open-source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
+The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open-source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
 
 This is the gap the revamped SCI WG proposes to own, in line with the option named in the Q2 2026 SCI WG TAC report (PR #614, "Refocus the WG on adoption").
 
@@ -35,8 +35,8 @@ Within 12 months of charter adoption, every actively-maintained OpenSSF-recommen
 
 ### 5.2 Out of scope
 
-1. Authoring or owning the OSPS Baseline itself - that's the [Best Practices WG / ORBIT WG](https://github.com/ossf/wg-orbit).
-2. Authoring or owning security tooling that is not adoption-focused - that's the [Security Tooling WG](https://github.com/ossf/wg-security-tooling) and Sigstore TIs.
+1. Authoring or owning the OSPS Baseline itself - that's [ORBIT WG](https://github.com/ossf/wg-orbit).
+2. Authoring or owning security tooling that is not adoption-focused - ownership sits with each tool's sponsoring WG or Technical Initiative (e.g., Sigstore is sponsored directly by the OpenSSF TAC); SCI does not claim general tooling development as in scope.
 3. Coordinated vulnerability disclosure processes and policy - that's the [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
 4. Manufacturer-side adoption - that's [ORBIT's Launchpad](https://github.com/ossf/wg-orbit).
 5. Targeted hardening of specific critical projects via paid engagement - that's [Alpha-Omega](https://alpha-omega.dev/).
@@ -49,11 +49,10 @@ The table below is reviewed annually with sibling-WG chairs. Where SCI publishes
 | Initiative | Their remit | Our remit | Handoff line |
 |---|---|---|---|
 | **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; we link and notify BP liaison. |
-| **Security Tooling WG** | Curates the tool catalog; owns Sigstore-adjacent infrastructure | Packages and recommends tools in maintainer-ready recipes | Every cookbook is co-reviewed by a Security Tooling liaison; tool gaps surfaced in clinics file issues against their catalog. |
 | **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
-| **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline stewardship | Maintainer-side adoption; authorship of SCI-domain Baseline controls | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
+| **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
 | **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to us for ongoing self-serve resources. |
-| **AI/ML Security WG, Identity & Access WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
+| **AI/ML Security WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
 
 ## 7. Technical Initiatives
 
@@ -124,4 +123,4 @@ The SCI WG requests that the TAC review and approve this charter as the WG's ado
 - GovOps WG proposal - [ossf/tac#588](https://github.com/ossf/tac/issues/588)
 - OpenSSF Technical Vision - https://github.com/ossf/tac/blob/main/technical-vision.md
 - OSPS Baseline - https://github.com/ossf/security-baseline
-- Sandbox WG template - `ossf/tac/process/templates/WG_NAME_sandbox_stage.md`
+- OpenSSF project/WG template - [`ossf/project-template/README.md`](https://github.com/ossf/project-template/blob/main/README.md)

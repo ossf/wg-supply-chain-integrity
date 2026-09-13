@@ -13,7 +13,7 @@ See the [top-level README](../README.md#chairs) for the current roster.
 
 ## Decision-making
 
-Per Charter §9 and §16:
+Per Charter §9:
 
 - **Default decisions:** lazy consensus on the WG mailing list, five business days.
 - **Charter amendments, TI admission, TI sunset, co-chair changes:** consensus of the co-chairs after a mailing-list comment window.
