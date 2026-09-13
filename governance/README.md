@@ -20,9 +20,9 @@ Per Charter §9:
 - **Amendments:** consensus of the co-chairs, 14 days' public notice on the mailing list, notification to the OpenSSF TAC; material changes (mission, scope, TI admission rule, introduction of a formal TSC) additionally require TAC review.
 - **Co-chair elections:** annually; mechanics in a forthcoming Operating Procedures companion doc.
 
-## Future formalization
+## Steering Committee
 
-A formal Technical Steering Committee is **not** part of the current charter and is tracked as a deliberate TODO in [Charter §9.4](./CHARTER.md#94-future-formalization-todo). It may be added by amendment once the WG has sustained active TI engagement.
+The WG's governing body transitions from the co-chairs to a Steering Committee in two phases, detailed in [Charter §9.4](./CHARTER.md#94-steering-committee). Phase 1 (current) is co-chair governance while every Technical Initiative's disposition is reviewed; Phase 2 seats a Steering Committee with one seat per Incubating/Graduated TI and two elected seats representing Sandbox-stage TIs collectively.
 
 ## Technical Initiatives
 

@@ -83,9 +83,25 @@ The WG is led by at least two co-chairs. Current chairs are listed in [`README.m
 
 Standard Linux Foundation conflict-of-interest disclosure expected from co-chairs. Recusal expected on decisions involving a co-chair's employer's directly competing TI.
 
-### 9.4 Future formalization (TODO)
+### 9.4 Steering Committee
 
-A formal Technical Steering Committee may be added by amendment once the WG has sustained active TI engagement; not blocking on charter adoption.
+The WG's governing body is established in two phases.
+
+**Phase 1 (current).** The co-chairs govern the WG directly. During this phase, the co-chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
+
+Phase 1 ends, and Phase 2 begins, upon the earlier of: (a) completion of the disposition review for every TI in the portfolio, or (b) [N] months from charter adoption.
+
+**Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
+
+- The co-chairs (§9.1).
+- One seat per Technical Initiative at Incubating or Graduated OpenSSF lifecycle stage, held by that TI's designated representative.
+- Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under §9.4.1.
+
+Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
+
+#### 9.4.1 Sandbox-tier seat elections
+
+The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. [Voting method, term length, election cadence, and tie-breaking: to be specified before Phase 2 begins.]
 
 ## 10. Naming
 
