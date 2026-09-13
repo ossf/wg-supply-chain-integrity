@@ -36,18 +36,21 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 
 * [User Stories](https://docs.google.com/document/d/1_TQizML8sXAm3OdoNA_plihZ14OHng_XRvJXKv_o_bs/edit?usp=sharing)
 
-## Sponsored Technical Initiatives
+## Technical Initiatives
 
-Under the [Charter v2.0](./governance/CHARTER.md), the WG's operating relationship to its sponsored TIs is **enablement-driven**: each TI articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return.
-
-* [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
-* [SLSA Tooling Project](slsa-tooling.md)
-* [Factory for Repeatable Secure Creation of Artifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
-* [Secure Supply Chain Consumption Framework (S2C2F)](https://github.com/ossf/s2c2f)
-* [gittuf: verifiable security governance for git repositories](https://github.com/gittuf/gittuf)
-* [Graph for Understanding Artifact Composition (GUAC)](https://guac.sh) - see also the [GUAC repository](https://github.com/guacsec/guac)
-* [Zarf: Secure Software Delivery to Disconnected Systems](https://zarf.dev) - see also the [Zarf repository](https://github.com/zarf-dev/zarf)
-* [SBOMit](https://github.com/SBOMit) — attestation-based SBOM accuracy
+| Name | Repository | Website | Lifecycle Stage | Notes |
+| --- | --- | --- | --- | --- |
+| AMPEL | [GitHub](https://github.com/carabiner-dev/ampel) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/AMPEL_sandbox_stage.md) | Lightweight supply chain policy engine for verifying signed attestations |
+| BOMHort | [GitHub](https://github.com/seebom-labs/BOMHort) | [docs.bomhort.dev](https://docs.bomhort.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/BOMHort_sandbox_stage.md) | Kubernetes-native SBOM visualization and governance |
+| darnit | [GitHub](https://github.com/kusari-oss/darnit) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/darnit_sandbox_stage.md) | Pluggable compliance audit framework for software engineering best practices |
+| FRSCA | [GitHub](https://github.com/buildsec/frsca) | [buildsec.github.io/frsca](https://buildsec.github.io/frsca) | Needs review | Factory for Repeatable Secure Creation of Artifacts. Not present in the TAC project table; the [2024 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2024/2024-Q3-SCI-WG.md) records its retirement |
+| gittuf | [GitHub](https://github.com/gittuf/gittuf) | [gittuf.dev](https://gittuf.dev/) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/gittuf_incubating_stage.md) | Verifiable security governance for git repositories |
+| GUAC | [GitHub](https://github.com/guacsec/guac) | [guac.sh](https://guac.sh) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/guac_incubating.md) | Observability for the software supply chain |
+| S2C2F | [GitHub](https://github.com/ossf/s2c2f) | — | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/s2c2f_incubation_stage.md) | Secure supply chain consumption framework |
+| SBOMit | [GitHub](https://github.com/SBOMit) | — | Needs review | Attestation-based SBOM accuracy. TAC lists it with sponsoring org "TBD" (not SCI) and maturity Sandbox |
+| SLSA | [GitHub](https://github.com/slsa-framework/slsa) | [slsa.dev](https://slsa.dev/) | [Graduated](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/SLSA_graduation_stage.md) | Supply-chain levels for software artifacts |
+| SLSA Tooling Project | [doc](./slsa-tooling.md) | — | Needs review | Tools supporting implementation of the SLSA specification. Not a separately tracked TAC project |
+| Zarf | [GitHub](https://github.com/zarf-dev/zarf) | [zarf.dev](https://zarf.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/zarf_sandbox_stage.md) | Secure software delivery for connected and disconnected systems |
 
 The Supply Chain Integrity Positioning SIG has been [sunset](./positioning-sig/README.md) as part of the v2.0 refocus; its outreach function is now central to the WG itself.
 

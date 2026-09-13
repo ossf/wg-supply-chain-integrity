@@ -55,22 +55,9 @@ The table below is reviewed annually with sibling-WG chairs. Where SCI publishes
 | **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to us for ongoing self-serve resources. |
 | **AI/ML Security WG, Identity & Access WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
 
-## 7. Sponsored Technical Initiatives
+## 7. Technical Initiatives
 
-The following TIs are currently sponsored by the SCI WG. Each TI articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return.
-
-- [SLSA](https://slsa.dev/) - supply-chain levels for software artifacts
-- [GUAC](https://guac.sh) - observability for the software supply chain
-- [gittuf](https://gittuf.dev/) - verifiable security governance for git
-- [Zarf](https://zarf.dev) - secure software delivery for connected and disconnected systems
-- [S2C2F](https://github.com/ossf/s2c2f) - secure supply chain consumption framework
-- [SBOMit](https://github.com/SBOMit) - attestation-based SBOM accuracy
-- [FRSCA](https://buildsec.github.io/frsca) - Factory for Repeatable Secure Creation of Artifacts
-- [SLSA Tooling Project](../slsa-tooling.md)
-- [AMPEL](https://github.com/carabiner-dev/ampel)
-- [Darnit](https://github.com/kusari-oss/darnit)
-* [BOMHort](https://github.com/seebom-labs/BOMHort) — Kubernetes-native SBOM visualization and governance
-No TI is being moved out of the WG as part of this charter.
+Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives), not in this charter, so that TI-level changes don't require a charter amendment.
 
 ## 8. Sub-project (TI) admission criteria
 

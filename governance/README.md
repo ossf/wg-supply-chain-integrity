@@ -24,9 +24,9 @@ Per Charter §9 and §16:
 
 A formal Technical Steering Committee is **not** part of the current charter and is tracked as a deliberate TODO in [Charter §9.4](./CHARTER.md#94-future-formalization-todo). It may be added by amendment once the WG has sustained active TI engagement.
 
-## Sponsored Technical Initiatives
+## Technical Initiatives
 
-See [Charter §7](./CHARTER.md#7-sponsored-technical-initiatives) for the current list and the WG's enablement-driven operating relationship to its TIs.
+See [README.md](../README.md#technical-initiatives) for the current roster, and [Charter §7](./CHARTER.md#7-technical-initiatives) for the WG's enablement-driven operating relationship to its TIs.
 
 ## Amending this directory
 
