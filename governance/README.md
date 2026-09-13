@@ -9,7 +9,7 @@ This directory holds the formal governance documents for the OpenSSF Supply Chai
 
 ## Co-chairs
 
-Interim co-chairs (pending charter ratification): Nicole Bates, Justin Cappos, Michael Lieberman.
+See the [top-level README](../README.md#chairs) for the current roster.
 
 ## Decision-making
 

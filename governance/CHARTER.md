@@ -85,7 +85,7 @@ Admission requires consensus among the co-chairs (lazy consensus on the WG maili
 
 ### 9.1 Co-chairs
 
-Three co-chairs, staggered terms. Currently (interim, pending charter ratification): Nicole Bates, Justin Cappos, Michael Lieberman.
+The WG is led by at least two co-chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
 
 ### 9.2 Decision-making
 
