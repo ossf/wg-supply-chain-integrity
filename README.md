@@ -57,7 +57,17 @@ Older activities (as Digital Identity Attestation WG):
 
 ## Governance
 
-This WG is currently chaired by interim co-chairs Nicole Bates, Justin Cappos, and Michael Lieberman.
+### Chairs
+
+* Adolfo García Veytia ([@puerco](https://github.com/puerco))
+* Justin Cappos ([@JustinCappos](https://github.com/JustinCappos))
+* Nicole Bates ([@nikcal](https://github.com/nikcal))
+* Stephen Augustus ([@justaugustus](https://github.com/justaugustus))
+
+### Support
+
+* **OpenSSF Staff Contact:** Kris Borchers ([@kborchers](https://github.com/kborchers))
+* **TAC Sponsor:** TBD
 
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
