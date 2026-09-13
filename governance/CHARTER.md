@@ -65,7 +65,7 @@ A proposed Technical Initiative is eligible for SCI WG sponsorship when it demon
 1. It materially lowers adoption friction for open-source maintainers of at least one identified ecosystem, language, or build system, with maintainer-side reviewer signoff.
 2. It integrates with at least one other OpenSSF-sponsored TI, specification, or recommended practice.
 
-Admission requires consensus among the co-chairs (lazy consensus on the WG mailing list, five business days, no sustained objection) and written notice-of-no-objection to sibling WGs whose remit it touches. TIs whose primary value is research, specification authorship, or tool implementation should be directed to the WG whose remit best fits.
+Admission decisions follow §9.2's decision-making rule for TI admission, plus written notice-of-no-objection to sibling WGs whose remit it touches. TIs whose primary value is research, specification authorship, or tool implementation should be directed to the WG whose remit best fits.
 
 ## 9. Governance
 
@@ -76,7 +76,7 @@ The WG is led by at least two co-chairs. Current chairs are listed in [`README.m
 ### 9.2 Decision-making
 
 - **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- **Charter amendments, TI admission, TI sunset, co-chair changes:** consensus of the co-chairs after a mailing-list comment window (see Section 13).
+- **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1 (§9.4), consensus of the co-chairs after a mailing-list comment window (see Section 13). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
 - **Co-chair elections:** held annually; process specified in a forthcoming Operating Procedures companion doc.
 
 ### 9.3 Conflicts of interest
@@ -89,7 +89,7 @@ The WG's governing body is established in two phases.
 
 **Phase 1 (current).** The co-chairs govern the WG directly. During this phase, the co-chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
 
-Phase 1 ends, and Phase 2 begins, upon the earlier of: (a) completion of the disposition review for every TI in the portfolio, or (b) [N] months from charter adoption.
+Phase 1 ends, and Phase 2 begins, upon the earlier of: (a) completion of the disposition review for every TI in the portfolio, or (b) six months from charter adoption.
 
 **Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
 
@@ -101,7 +101,7 @@ Each Steering Committee member holds exactly one vote, regardless of how many ro
 
 #### 9.4.1 Sandbox-tier seat elections
 
-The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. [Voting method, term length, election cadence, and tie-breaking: to be specified before Phase 2 begins.]
+The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the co-chairs. Ties are broken by random draw, administered and publicly recorded by the co-chairs.
 
 ## 10. Naming
 
@@ -125,7 +125,9 @@ The WG's broader scope under this charter strains the literal reading of "Supply
 
 ## 13. Amendments
 
-This charter may be amended by consensus of the co-chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes like mission, scope, TI admission rule, or the introduction of a formal TSC, additionally require TAC review.
+During Phase 1 (§9.4), this charter may be amended by consensus of the co-chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes -- mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation -- additionally require TAC review.
+
+Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
 
 ## 14. Requested TAC action
 
