@@ -44,9 +44,9 @@
 
 - e. **Relationships.** SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
 
-- f. **Objectives.** The WG maintains a measurable, time-bound adoption objective in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
+- f. **Objectives.** The WG maintains adoption objectives in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
 
-## 2. Steering Committee
+## 2. Leadership
 
 - a. **Chairs.** The WG is led by at least two chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
 
@@ -78,7 +78,7 @@
 
 ## 3. Technical Initiatives
 
-- a. Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives), not in this charter, so that TI-level changes don't require a charter amendment.
+- a. Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives).
 
 - b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates, at proposal time, both of the following:
 
@@ -128,10 +128,3 @@
 - a. During Phase 1 (§2(d)), this charter may be amended by consensus of the chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes — mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation — additionally require TAC review.
 
 - b. Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
-
-## 9. References
-
-- ORBIT WG Charter - https://github.com/ossf/wg-orbit/blob/main/CHARTER.md
-- OpenSSF Technical Vision - https://github.com/ossf/tac/blob/main/technical-vision.md
-- OSPS Baseline - https://github.com/ossf/security-baseline
-- OpenSSF project/WG template - [`ossf/project-template/README.md`](https://github.com/ossf/project-template/blob/main/README.md)
