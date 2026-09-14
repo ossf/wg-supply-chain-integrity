@@ -20,7 +20,7 @@ This is the gap the revamped SCI WG proposes to own.
 
 ## 4. Measurable Objective
 
-Within 12 months of charter adoption, every actively-maintained OpenSSF-recommended security practice has a documented, signposted, maintainer-tested adoption path that begins with *"I'm an open-source maintainer, where do I start?"* and ends with a measurable artifact (e.g., OSPS Baseline score, SLSA level, signed release). The SCI WG owns the on-ramp and the routing; sibling WGs continue to own the underlying practices.
+The WG maintains a measurable, time-bound adoption objective in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
 
 ## 5. Scope
 
@@ -44,15 +44,7 @@ Within 12 months of charter adoption, every actively-maintained OpenSSF-recommen
 
 ## 6. Relationship to existing initiatives
 
-The table below is reviewed annually with sibling-WG chairs. Where SCI publishes maintainer-facing material, it cites and links the owning WG's source of truth; if SCI discovers a gap, it files an issue with the owning WG before producing its own material.
-
-| Initiative | Their remit | SCI's remit | Handoff line |
-|---|---|---|---|
-| **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; SCI links and notifies the BP liaison. |
-| **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
-| **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
-| **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to SCI for ongoing self-serve resources. |
-| **AI/ML Security WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
+SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
 
 ## 7. Technical Initiatives
 
@@ -73,11 +65,14 @@ Admission decisions follow §9.2's decision-making rule for TI admission, plus w
 
 The WG is led by at least two co-chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
 
+No more than one-third of co-chairs -- rounded down, with a minimum of one co-chair permitted per company -- may be affiliated with the same company at any time.
+
+**Vacancies.** If a resignation, removal, or other loss of a co-chair would drop the number of co-chairs below the floor above, the remaining co-chairs -- or, once seated, the Steering Committee -- solicit nominations for replacement co-chairs. Selection follows §9.2's decision-making rule for co-chair changes.
+
 ### 9.2 Decision-making
 
 - **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
 - **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1 (§9.4), consensus of the co-chairs after a mailing-list comment window (see Section 13). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
-- **Co-chair elections:** held annually; process specified in a forthcoming Operating Procedures companion doc.
 
 ### 9.3 Conflicts of interest
 
@@ -99,9 +94,13 @@ Phase 1 ends, and Phase 2 begins, upon the earlier of: (a) completion of the dis
 
 Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
 
+No more than one-third of Steering Committee seats -- rounded down, with a minimum of one seat permitted per company -- may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under §9.4.1 is seated instead.
+
 #### 9.4.1 Sandbox-tier seat elections
 
 The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the co-chairs. Ties are broken by random draw, administered and publicly recorded by the co-chairs.
+
+If a Sandbox-tier seat becomes vacant before its term ends, the seat is offered to the next-highest vote-getter from the most recent election; this may fill at most one vacancy between elections. A further vacancy before the next scheduled election triggers a special election under the same rules, administered by the co-chairs.
 
 ## 10. Naming
 
@@ -117,11 +116,7 @@ The WG's broader scope under this charter strains the literal reading of "Supply
 
 ## 12. Community assets
 
-- Repository: https://github.com/ossf/wg-supply-chain-integrity
-- Mailing list: https://lists.openssf.org/g/openssf-supply-chain-integrity
-- Slack: `#wg_supply_chain_integrity` and the maintainer-facing `#maintainers` on the OpenSSF Slack
-- Public calendar: see [README](../README.md#meetings-times)
-- Meeting notes: [Google Drive](http://ssci.io/sci-notes)
+Current communication channels, meeting times, and meeting notes are maintained in [`README.md`](../README.md).
 
 ## 13. Amendments
 
