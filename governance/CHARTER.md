@@ -91,7 +91,7 @@
 - c. **Sponsorship obligations.** Each sponsored Technical Initiative:
 
   - i. Names an accountable representative to the WG, and keeps that designation current.
-  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC.
+  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC. A report states the initiative's current status and what it plans next; an empty section or a placeholder is not a report.
   - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
   - iv. Accepts maintainer feedback routed to it by the WG.
 
