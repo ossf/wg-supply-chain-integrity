@@ -1,141 +1,135 @@
 # OpenSSF Supply Chain Integrity Working Group - Charter
 
-*Last updated: 2026 Q3.*
+*Last updated: 2026 Q3*
 
-## 1. Overview
+## 1. Mission and Scope
 
-The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group focused on lowering adoption cost for open source maintainers across the OpenSSF tooling surface. It operates as a **front door and brokering layer**: sponsoring Technical Initiatives (TIs) whose primary value is reducing adoption friction, and routing maintainer needs to the appropriate sibling WG when they fall outside the WG's remit.
+- a. **Mission.**
 
-## 2. Motivation
+  > **Make adopting OpenSSF security tooling the easy default for open source maintainers.**
 
-OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and others, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face overlapping artifacts, unclear sequencing, and no single OpenSSF venue chartered to make adoption easier.
+  The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group focused on lowering adoption cost for open source maintainers across the OpenSSF tooling surface. It operates as a **front door and brokering layer**: sponsoring Technical Initiatives (TIs) whose primary value is reducing adoption friction, and routing maintainer needs to the appropriate sibling WG when they fall outside the WG's remit.
 
-The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
+- b. **Motivation.** OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and others, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face overlapping artifacts, unclear sequencing, and no single OpenSSF venue chartered to make adoption easier.
 
-This is the gap the revamped SCI WG proposes to own.
+  The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
 
-## 3. Mission
+  This is the gap the revamped SCI WG proposes to own.
 
-> **Make adopting OpenSSF security tooling the easy default for open source maintainers.**
+- c. **In scope:**
 
-## 4. Objectives
+  - i. Maintainer-facing adoption on-ramps and decision aids across the OpenSSF tooling surface.
+  - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
+  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, who owns it, where to send a maintainer."
+  - iv. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
+  - v. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
+  - vi. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
 
-The WG maintains a measurable, time-bound adoption objective in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
+- d. **Out of scope:**
 
-## 5. Scope
+  - i. Authoring or owning specifications, standards, or metrics that another WG or Technical Initiative already owns.
+  - ii. General security-tooling implementation that is not itself an adoption on-ramp.
+  - iii. Coordinated vulnerability disclosure processes and policy.
+  - iv. Manufacturer-side (as opposed to maintainer-side) adoption programs.
+  - v. Targeted, funded hardening engagements for specific critical projects.
+  - vi. Adjudicating between competing technical approaches owned by other WGs.
 
-### 5.1 In scope
+  The following illustrate current ownership of the areas above as of this charter's adoption. They are examples, not an exhaustive or binding list, and do not themselves define scope if OpenSSF's WG structure changes:
 
-1. Maintainer-facing adoption on-ramps and decision aids across the OpenSSF tooling surface.
-2. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
-3. Cross-WG brokering: maintaining a current map of "what OpenSSF has, who owns it, where to send a maintainer."
-4. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
-5. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
-6. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
+  - OSPS Baseline authorship: [ORBIT WG](https://github.com/ossf/wg-orbit).
+  - General security tooling (e.g., Sigstore): sponsored directly by the OpenSSF TAC or another WG/TI.
+  - Coordinated vulnerability disclosure: [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
+  - Manufacturer-side adoption: [ORBIT Launchpad](https://github.com/ossf/wg-orbit).
+  - Funded targeted hardening: [Alpha-Omega](https://alpha-omega.dev/).
 
-### 5.2 Out of scope
+- e. **Relationships.** SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
 
-1. Authoring or owning specifications, standards, or metrics that another WG or Technical Initiative already owns.
-2. General security-tooling implementation that is not itself an adoption on-ramp.
-3. Coordinated vulnerability disclosure processes and policy.
-4. Manufacturer-side (as opposed to maintainer-side) adoption programs.
-5. Targeted, funded hardening engagements for specific critical projects.
-6. Adjudicating between competing technical approaches owned by other WGs.
+- f. **Objectives.** The WG maintains a measurable, time-bound adoption objective in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
 
-The following illustrate current ownership of the areas above as of this charter's adoption. They are examples, not an exhaustive or binding list, and do not themselves define scope if OpenSSF's WG structure changes:
+## 2. Steering Committee
 
-- OSPS Baseline authorship: [ORBIT WG](https://github.com/ossf/wg-orbit).
-- General security tooling (e.g., Sigstore): sponsored directly by the OpenSSF TAC or another WG/TI.
-- Coordinated vulnerability disclosure: [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
-- Manufacturer-side adoption: [ORBIT's Launchpad](https://github.com/ossf/wg-orbit).
-- Funded targeted hardening: [Alpha-Omega](https://alpha-omega.dev/).
+- a. **Chairs.** The WG is led by at least two chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
 
-## 6. Relationships
+  No more than one-third of chairs — rounded down, with a minimum of one chair permitted per company — may be affiliated with the same company at any time.
 
-SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
+- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs — or, once seated, the Steering Committee — solicit nominations for replacement chairs. Selection follows §4(b)'s decision-making rule for chair changes.
 
-## 7. Technical Initiatives
+- c. **Conflicts of interest.** Standard Linux Foundation conflict-of-interest disclosure expected from chairs. Recusal expected on decisions involving a chair's employer's directly competing TI.
 
-Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives), not in this charter, so that TI-level changes don't require a charter amendment.
+- d. **Phases and composition.** The WG's governing body is established in two phases.
 
-## 8. Sub-project (TI) admission criteria
+  **Phase 1 (current).** The chairs govern the WG directly. During this phase, the chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
 
-A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates, at proposal time, both of the following:
+  Phase 1 ends, and Phase 2 begins, upon the earlier of: (i) completion of the disposition review for every TI in the portfolio, or (ii) six months from charter adoption.
 
-1. It materially lowers adoption friction for open source maintainers of at least one identified ecosystem, language, or build system, with maintainer-side reviewer signoff.
-2. It integrates with at least one other OpenSSF-sponsored TI, specification, or recommended practice.
+  **Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
 
-Admission decisions follow §9.2's decision-making rule for TI admission, plus written notice-of-no-objection to sibling WGs whose remit it touches. TIs whose primary value is research, specification authorship, or tool implementation should be directed to the WG whose remit best fits.
+  - i. The chairs (§2(a)).
+  - ii. One seat per Technical Initiative at Incubating or Graduated OpenSSF lifecycle stage, held by that TI's designated representative.
+  - iii. Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under §2(e).
 
-## 9. Governance
+  Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
 
-### 9.1 Co-chairs
+  No more than one-third of Steering Committee seats — rounded down, with a minimum of one seat permitted per company — may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under §2(e) is seated instead.
 
-The WG is led by at least two co-chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
+- e. **Sandbox-tier seat elections.** The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the chairs. Ties are broken by random draw, administered and publicly recorded by the chairs.
 
-No more than one-third of co-chairs -- rounded down, with a minimum of one co-chair permitted per company -- may be affiliated with the same company at any time.
+  If a Sandbox-tier seat becomes vacant before its term ends, the seat is offered to the next-highest vote-getter from the most recent election; this may fill at most one vacancy between elections. A further vacancy before the next scheduled election triggers a special election under the same rules, administered by the chairs.
 
-**Vacancies.** If a resignation, removal, or other loss of a co-chair would drop the number of co-chairs below the floor above, the remaining co-chairs -- or, once seated, the Steering Committee -- solicit nominations for replacement co-chairs. Selection follows §9.2's decision-making rule for co-chair changes.
+## 3. Technical Initiatives
 
-### 9.2 Decision-making
+- a. Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives), not in this charter, so that TI-level changes don't require a charter amendment.
 
-- **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1 (§9.4), consensus of the co-chairs after a mailing-list comment window (see §13). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
+- b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates, at proposal time, both of the following:
 
-### 9.3 Conflicts of interest
+  - i. It materially lowers adoption friction for open source maintainers of at least one identified ecosystem, language, or build system, with maintainer-side reviewer signoff.
+  - ii. It integrates with at least one other OpenSSF-sponsored TI, specification, or recommended practice.
 
-Standard Linux Foundation conflict-of-interest disclosure expected from co-chairs. Recusal expected on decisions involving a co-chair's employer's directly competing TI.
+  Admission decisions follow §4(b)'s decision-making rule for TI admission, plus written notice-of-no-objection to sibling WGs whose remit it touches. TIs whose primary value is research, specification authorship, or tool implementation should be directed to the WG whose remit best fits.
 
-### 9.4 Steering Committee
+## 4. SC Voting
 
-The WG's governing body is established in two phases.
+- a. **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
+- b. **Charter amendments, TI admission, TI sunset, chair changes:** during Phase 1 (§2(d)), consensus of the chairs after a mailing-list comment window (see §8). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
+- c. **Quorum:** once the Steering Committee is seated (Phase 2), a vote requires at least fifty percent of voting members to be present.
+- d. **Escalation:** if a vote cannot be resolved, any chair, or once seated any Steering Committee member, may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
 
-**Phase 1 (current).** The co-chairs govern the WG directly. During this phase, the co-chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
+## 5. Compliance with Policies
 
-Phase 1 ends, and Phase 2 begins, upon the earlier of: (a) completion of the disposition review for every TI in the portfolio, or (b) six months from charter adoption.
+- a. This charter is subject to the [OpenSSF Charter](https://charter.openssf.org/) and any rules or policies established for all OpenSSF WGs.
+- b. WG participants are expected to conduct themselves professionally, subject to the Contributor Covenant Code of Conduct 2.0. The chairs, or once seated the Steering Committee, may adopt a different code of conduct for the WG, subject to OpenSSF TAC approval.
+- c. Participation is open to any individual or organization meeting this charter's requirements, on a non-discriminatory basis; the WG does not exclude participants based on competitive interests. All WG activities are subject to the Linux Foundation's Antitrust Policy.
+- d. The WG operates transparently: discussions, proposals, timelines, decisions, and status are open and visible to all. Suspected violations are reported to the OpenSSF TAC.
 
-**Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
+## 6. Community Assets
 
-- The co-chairs (§9.1).
-- One seat per Technical Initiative at Incubating or Graduated OpenSSF lifecycle stage, held by that TI's designated representative.
-- Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under §9.4.1.
+- a. The Linux Foundation holds title to all trade or service marks used by the WG, whether based on common law or registered rights. Use of WG trademarks follows Linux Foundation trademark policy.
+- b. The Linux Foundation or the WG owns or controls the repositories, social media accounts, and domain name registrations created for use by the WG community.
+- c. The Linux Foundation is not expected or required to take any action on behalf of the WG inconsistent with its own policies, tax-exempt status, or purpose.
+- d. Current communication channels, meeting times, and meeting notes are maintained in [`README.md`](../README.md).
 
-Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
+## 7. Intellectual Property Policy
 
-No more than one-third of Steering Committee seats -- rounded down, with a minimum of one seat permitted per company -- may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under §9.4.1 is seated instead.
+- a. Contributors retain copyright in their own contributions; no contributor is required to assign copyright to the WG.
 
-#### 9.4.1 Sandbox-tier seat elections
+- b. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the [OpenSSF Charter](https://charter.openssf.org/) permits:
 
-The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the co-chairs. Ties are broken by random draw, administered and publicly recorded by the co-chairs.
+  - i. Code: Apache License 2.0 or the MIT License.
+  - ii. Data: any Community Data License Agreement (CDLA).
+  - iii. Specifications: the Community Specification License, Version 1.0.
+  - iv. All other documentation: Creative Commons Attribution 4.0 International.
 
-If a Sandbox-tier seat becomes vacant before its term ends, the seat is offered to the next-highest vote-getter from the most recent election; this may fill at most one vacancy between elections. A further vacancy before the next scheduled election triggers a special election under the same rules, administered by the co-chairs.
+- c. Trademarks, and any request for a license outside these options, follow Linux Foundation policy.
 
-## 10. Naming
+- d. Contributed files should carry license information, such as an SPDX short-form identifier.
 
-The WG's broader scope under this charter strains the literal reading of "Supply Chain Integrity." The WG considered renaming (candidates include *"Maintainer Enablement WG"* and *"Producer Enablement WG"*) and chose to preserve the SCI name for now, citing brand continuity and substantive overlap between supply-chain integrity and maintainer-side adoption.
+## 8. Amendments
 
-## 11. Intellectual property / licensing
+- a. During Phase 1 (§2(d)), this charter may be amended by consensus of the chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes — mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation — additionally require TAC review.
 
-The [OpenSSF Charter](https://charter.openssf.org/) is binding on this WG and takes precedence over anything below. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the OpenSSF Charter permits:
+- b. Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
 
-- Code: Apache License 2.0 or the MIT License.
-- Data: any Community Data License Agreement (CDLA).
-- Specifications: the Community Specification License, Version 1.0.
-- All other documentation: Creative Commons Attribution 4.0 International.
-
-Trademarks, and any request for a license outside these options, follow Linux Foundation policy.
-
-## 12. Community assets
-
-Current communication channels, meeting times, and meeting notes are maintained in [`README.md`](../README.md).
-
-## 13. Amendments
-
-During Phase 1 (§9.4), this charter may be amended by consensus of the co-chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes -- mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation -- additionally require TAC review.
-
-Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
-
-## 14. References
+## 9. References
 
 - ORBIT WG Charter - https://github.com/ossf/wg-orbit/blob/main/CHARTER.md
 - OpenSSF Technical Vision - https://github.com/ossf/tac/blob/main/technical-vision.md
