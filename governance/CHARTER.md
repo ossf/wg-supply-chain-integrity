@@ -95,7 +95,11 @@
   - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
   - iv. Accepts maintainer feedback routed to it by the WG.
 
-- d. **Sunset.** A Technical Initiative that has not met (c) for two consecutive quarters is reviewed for sunset or transfer under Section 4.b. Sunset does not imply any judgement about the project's health outside the WG.
+- d. **Sunset.** For the purposes of this subsection, a Technical Initiative does not meet its obligations in a quarter if it has no current accountable representative (c.i) or did not report to the WG that quarter (c.ii).
+
+  - i. A Technical Initiative that does not meet its obligations for two consecutive quarters is reviewed under Section 4.b.
+  - ii. **Transition.** At adoption of this charter, the chairs give written notice to any Technical Initiative that did not meet its obligations in the preceding quarter. For an initiative given notice, the first full quarter after adoption counts as its second consecutive quarter under (i).
+  - iii. A review may conclude that the initiative continues under a remediation plan, transfers to another working group, returns to the OpenSSF TAC as unsponsored, or is archived. Sunset does not imply any judgement about the project's health or activity outside the WG.
 
 ## 4. SC Voting
 
