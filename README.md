@@ -4,7 +4,7 @@
 
 ## Mission
 
-**Make adopting OpenSSF security tooling the easy default for open-source maintainers.**
+**Make adopting OpenSSF security tooling the easy default for open source maintainers.**
 
 The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF Technical Vision and the OSPS Baseline into a low-friction adoption path.
 
@@ -12,11 +12,11 @@ The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
 
 ## Objectives
 
-Within 12 months of charter adoption, every actively-maintained OpenSSF-recommended security practice has a documented, signposted, maintainer-tested adoption path that begins with *"I'm an open-source maintainer, where do I start?"* and ends with a measurable artifact (e.g., OSPS Baseline score, SLSA level, signed release). The SCI WG owns the on-ramp and the routing; sibling WGs continue to own the underlying practices.
+Within 12 months of charter adoption, every actively-maintained OpenSSF-recommended security practice has a documented, signposted, maintainer-tested adoption path that begins with *"I'm an open source maintainer, where do I start?"* and ends with a measurable artifact (e.g., OSPS Baseline score, SLSA level, signed release). The SCI WG owns the on-ramp and the routing; sibling WGs continue to own the underlying practices.
 
 ## Motivation
 
-OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open-source projects these tools are mostly built for. Maintainers face a fragmented landscape: dozens of overlapping artifacts, unclear sequencing, no shared on-ramp. The revamped SCI WG exists to close that gap.
+OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face a fragmented landscape: dozens of overlapping artifacts, unclear sequencing, no shared on-ramp. The revamped SCI WG exists to close that gap.
 
 ## Communications
 
