@@ -1,12 +1,22 @@
 # Supply Chain Integrity WG
 
-## Objective
+> **Maintainers — start here:** the SCI WG is being repositioned as the OpenSSF maintainer front door. See the proposed [Charter v2.0](./governance/CHARTER.md). Comments and contributions welcome on the mailing list and in `#wg_supply_chain_integrity` on the OpenSSF Slack.
 
-The objective of the Supply Chain Integrity Working Group (WG) is to provide a global community for collaborating to help individuals and organizations assess and improve the security of end-to-end supply chains for open source software.
+## Mission
+
+**Make adopting OpenSSF security tooling the easy default for open source maintainers.**
+
+The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF Technical Vision and the OSPS Baseline into a low-friction adoption path.
+
+The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
+
+## Objectives
+
+Within 12 months of charter adoption, every actively-maintained OpenSSF-recommended security practice has a documented, signposted, maintainer-tested adoption path that begins with *"I'm an open source maintainer, where do I start?"* and ends with a measurable artifact (e.g., OSPS Baseline score, SLSA level, signed release). The SCI WG owns the on-ramp and the routing; sibling WGs continue to own the underlying practices.
 
 ## Motivation
 
-Supply chain issues and attacks cause significant damage worldwide including lost revenue, costs of ransomware payments, costs of mitigation, denial of access to resources, reduced customer trust, and public deception. As a matter of public trust, governments are beginning to mandate actions aimed at improving the security and integrity of supply chains. The [US White House Executive Order on Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/) is one such example.
+OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face a fragmented landscape: dozens of overlapping artifacts, unclear sequencing, no shared on-ramp. The revamped SCI WG exists to close that gap.
 
 ## Communications
 
@@ -14,7 +24,7 @@ We have a public email list available here: https://lists.openssf.org/g/openssf-
 
 See Google Groups for past archive: https://groups.google.com/forum/#!forum/ossf-wg-developer-identity
 
-You can also join our Slack channel at https://openssf.slack.com/messages/wg_supply_chain_integrity
+You can also join our Slack channel at https://openssf.slack.com/messages/wg_supply_chain_integrity, or the maintainer-facing `#maintainers` channel on the OpenSSF Slack.
 
 ## Meetings Times
 
@@ -30,29 +40,48 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 
 * [User Stories](https://docs.google.com/document/d/1_TQizML8sXAm3OdoNA_plihZ14OHng_XRvJXKv_o_bs/edit?usp=sharing)
 
-## Activities
+## Technical Initiatives
 
-* [Supply-chain Levels for Software Artifacts (SLSA, pronounced ”salsa”)](https://slsa.dev/) - see also the [SLSA repository](https://github.com/slsa-framework/slsa)
-* [SLSA Tooling Project](slsa-tooling.md)
-* [Factory for Repeatable Secure Creation of Artifacts (FRSCA, pronounced "fresca")](https://buildsec.github.io/frsca) - see also the [FRSCA repository](https://github.com/buildsec/frsca)
-* [Secure Supply Chain Consumption Framework (S2C2F)](https://github.com/ossf/s2c2f)
-* Supply Chain Integrity Positioning Special Interest Group (SIG)
-* [gittuf: A security layer for Git repositories](https://github.com/gittuf/gittuf)
-* [Graph for Understanding Artifact Composition (GUAC)](https://guac.sh) - see also the [GUAC repository](https://github.com/guacsec/guac)
-* [Zarf: Secure Software Delivery to Disconnected Systems](https://zarf.dev) - see also the [Zarf repository](https://github.com/zarf-dev/zarf)
+| Name | Repository | Website | Lifecycle Stage | Notes |
+| --- | --- | --- | --- | --- |
+| AMPEL | [GitHub](https://github.com/carabiner-dev/ampel) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/AMPEL_sandbox_stage.md) | Lightweight supply chain policy engine for verifying signed attestations |
+| BOMHort | [GitHub](https://github.com/seebom-labs/BOMHort) | [docs.bomhort.dev](https://docs.bomhort.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/BOMHort_sandbox_stage.md) | Kubernetes-native SBOM visualization and governance |
+| darnit | [GitHub](https://github.com/kusari-oss/darnit) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/darnit_sandbox_stage.md) | Pluggable compliance audit framework for software engineering best practices |
+| FRSCA | [GitHub](https://github.com/buildsec/frsca) | [buildsec.github.io/frsca](https://buildsec.github.io/frsca) | Needs review | Factory for Repeatable Secure Creation of Artifacts. Not present in the TAC project table; the [2024 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2024/2024-Q3-SCI-WG.md) records its retirement |
+| gittuf | [GitHub](https://github.com/gittuf/gittuf) | [gittuf.dev](https://gittuf.dev/) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/gittuf_incubating_stage.md) | Verifiable security governance for git repositories |
+| GUAC | [GitHub](https://github.com/guacsec/guac) | [guac.sh](https://guac.sh) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/guac_incubating.md) | Observability for the software supply chain |
+| S2C2F | [GitHub](https://github.com/ossf/s2c2f) | — | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/s2c2f_incubation_stage.md) | Secure supply chain consumption framework |
+| SBOMit | [GitHub](https://github.com/SBOMit) | — | Needs review | Attestation-based SBOM accuracy. TAC lists it with sponsoring org "TBD" (not SCI) and maturity Sandbox |
+| SLSA | [GitHub](https://github.com/slsa-framework/slsa) | [slsa.dev](https://slsa.dev/) | [Graduated](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/SLSA_graduation_stage.md) | Supply-chain levels for software artifacts |
+| SLSA Tooling Project | [doc](./slsa-tooling.md) | — | Needs review | Tools supporting implementation of the SLSA specification. Not a separately tracked TAC project |
+| Zarf | [GitHub](https://github.com/zarf-dev/zarf) | [zarf.dev](https://zarf.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/zarf_sandbox_stage.md) | Secure software delivery for connected and disconnected systems |
+
+The Supply Chain Integrity Positioning SIG has been [sunset](./positioning-sig/README.md) as part of the v2.0 refocus; its outreach function is now central to the WG itself.
 
 Older activities (as Digital Identity Attestation WG):
   * [Former Digital Identity Attestation WG Readme](https://github.com/ossf/wg-supply-chain-integrity/blob/0804679461f7ed288d50d70da7ae9c7152b1e51d/README.md)
   * [Recap](https://openssf.org/blog/2021/01/27/digital-identity-attestation-roundup/)
 
+## Relationships
+
+The table below is reviewed annually with sibling-WG chairs. Where SCI publishes maintainer-facing material, it cites and links the owning WG's source of truth; if SCI discovers a gap, it files an issue with the owning WG before producing its own material.
+
+| Initiative | Their remit | SCI's remit | Handoff line |
+| --- | --- | --- | --- |
+| **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; SCI links and notifies the BP liaison. |
+| **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
+| **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
+| **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to SCI for ongoing self-serve resources. |
+| **AI/ML Security WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
+
 ## Governance
 
 ### Chairs
 
-* Adolfo García Veytia ([@puerco](https://github.com/puerco))
-* Justin Cappos ([@JustinCappos](https://github.com/JustinCappos))
-* Nicole Bates ([@nikcal](https://github.com/nikcal))
-* Stephen Augustus ([@justaugustus](https://github.com/justaugustus))
+* Adolfo García Veytia ([@puerco](https://github.com/puerco)), Carabiner Systems
+* Justin Cappos ([@JustinCappos](https://github.com/JustinCappos)), NYU
+* Nicole Bates ([@nikcal](https://github.com/nikcal)), Microsoft
+* Stephen Augustus ([@justaugustus](https://github.com/justaugustus)), Bloomberg
 
 ### Support
 
@@ -62,9 +91,8 @@ Older activities (as Digital Identity Attestation WG):
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
 
-Full details of process and roles are linked from [governance README](/governance).
-
-New SCI WG Charter can be read from [governance CHARTER](/governance/CHARTER.MD)
+- **Charter (proposed v2.0):** [`governance/CHARTER.md`](./governance/CHARTER.md).
+- **Governance process:** [`governance/README.md`](./governance/README.md).
 
 ## Antitrust Policy Notice
 

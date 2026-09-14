@@ -1,5 +1,9 @@
 # SCI WG - Positioning Special Interest Group
 
+> **Sunset notice (Q3 2026):** This SIG has been sunset as part of the SCI WG Charter v2.0 refocus. Its outreach function — landing page, clinic, conference presence, ecosystem cookbooks — is now central to the WG itself. See the [Charter v2.0](../governance/CHARTER.md). This directory is preserved for historical reference.
+
+---
+
 ## Objective
 
 ## Motivation
