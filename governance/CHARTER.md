@@ -52,7 +52,7 @@
 
   No more than one-third of chairs — rounded down, with a minimum of one chair permitted per company — may be affiliated with the same company at any time.
 
-- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs — or, once seated, the Steering Committee — solicit nominations for replacement chairs. Selection follows §4(b)'s decision-making rule for chair changes.
+- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs — or, once seated, the Steering Committee — solicit nominations for replacement chairs. Selection follows Section 4.b's decision-making rule for chair changes.
 
 - c. **Conflicts of interest.** Standard Linux Foundation conflict-of-interest disclosure expected from chairs. Recusal expected on decisions involving a chair's employer's directly competing TI.
 
@@ -64,13 +64,13 @@
 
   **Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
 
-  - i. The chairs (§2(a)).
+  - i. The chairs (Section 2.a).
   - ii. One seat per Technical Initiative at Incubating or Graduated OpenSSF lifecycle stage, held by that TI's designated representative.
-  - iii. Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under §2(e).
+  - iii. Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under Section 2.e.
 
   Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
 
-  No more than one-third of Steering Committee seats — rounded down, with a minimum of one seat permitted per company — may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under §2(e) is seated instead.
+  No more than one-third of Steering Committee seats — rounded down, with a minimum of one seat permitted per company — may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under Section 2.e is seated instead.
 
 - e. **Sandbox-tier seat elections.** The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the chairs. Ties are broken by random draw, administered and publicly recorded by the chairs.
 
@@ -78,19 +78,29 @@
 
 ## 3. Technical Initiatives
 
-- a. Each TI sponsored by the SCI WG articulates annually how its work lowers adoption friction for some defined maintainer population; the WG offers brokering, research, and cross-TI integration capacity in return. The current roster is maintained in [`README.md`](../README.md#technical-initiatives).
+- a. The SCI WG sponsors Technical Initiatives whose work the WG can route open source maintainers toward; the WG offers brokering, research, and cross-TI integration capacity in return. Sponsorship does not supersede a Technical Initiative's own charter: each sponsored initiative retains authority over its roadmap, maintainers, releases, and implementation decisions. The current roster is maintained in [`README.md`](../README.md#technical-initiatives).
 
-- b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates, at proposal time, both of the following:
+- b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates all of the following:
 
-  - i. It materially lowers adoption friction for open source maintainers of at least one identified ecosystem, language, or build system, with maintainer-side reviewer signoff.
-  - ii. It integrates with at least one other OpenSSF-sponsored TI, specification, or recommended practice.
+  - i. **Adoption surface.** Its outputs are, or directly support, something an open source maintainer adopts — a practice, specification, or tool the WG can route maintainers toward. A Technical Initiative need not itself be an on-ramp; it must be something an on-ramp can lead to.
+  - ii. **Interoperability.** It interoperates with at least two other OpenSSF-sponsored Technical Initiatives, specifications, or recommended practices, evidenced by a working reference workflow, a tested data exchange, a shared attestation chain, or a documented dependency with joint conformance tests. A hyperlink is not evidence.
+  - iii. **Accountability.** It names an accountable representative and accepts the sponsorship obligations in (c).
 
-  Admission decisions follow §4(b)'s decision-making rule for TI admission, plus written notice-of-no-objection to sibling WGs whose remit it touches. TIs whose primary value is research, specification authorship, or tool implementation should be directed to the WG whose remit best fits.
+  Admission decisions follow Section 4.b. The WG notifies sibling WGs whose remit the initiative touches, and records any objection. Section 1.d.i restricts what the WG itself authors; it does not restrict what a sponsored Technical Initiative may author.
+
+- c. **Sponsorship obligations.** Each sponsored Technical Initiative:
+
+  - i. Names an accountable representative to the WG, and keeps that designation current.
+  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC.
+  - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
+  - iv. Accepts maintainer feedback routed to it by the WG.
+
+- d. **Sunset.** A Technical Initiative that has not met (c) for two consecutive quarters is reviewed for sunset or transfer under Section 4.b. Sunset does not imply any judgement about the project's health outside the WG.
 
 ## 4. SC Voting
 
 - a. **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- b. **Charter amendments, TI admission, TI sunset, chair changes:** during Phase 1 (§2(d)), consensus of the chairs after a mailing-list comment window (see §8). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
+- b. **Charter amendments, TI admission, TI sunset, chair changes:** during Phase 1 (Section 2.d), consensus of the chairs after a mailing-list comment window (see Section 8). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
 - c. **Quorum:** once the Steering Committee is seated (Phase 2), a vote requires at least fifty percent of voting members to be present.
 - d. **Escalation:** if a vote cannot be resolved, any chair, or once seated any Steering Committee member, may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
 
@@ -125,6 +135,6 @@
 
 ## 8. Amendments
 
-- a. During Phase 1 (§2(d)), this charter may be amended by consensus of the chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes — mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation — additionally require TAC review.
+- a. During Phase 1 (Section 2.d), this charter may be amended by consensus of the chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes — mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation — additionally require TAC review.
 
 - b. Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
