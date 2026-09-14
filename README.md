@@ -78,10 +78,10 @@ The table below is reviewed annually with sibling-WG chairs. Where SCI publishes
 
 ### Chairs
 
-* Adolfo García Veytia ([@puerco](https://github.com/puerco))
-* Justin Cappos ([@JustinCappos](https://github.com/JustinCappos))
-* Nicole Bates ([@nikcal](https://github.com/nikcal))
-* Stephen Augustus ([@justaugustus](https://github.com/justaugustus))
+* Adolfo García Veytia ([@puerco](https://github.com/puerco)), Carabiner Systems
+* Justin Cappos ([@JustinCappos](https://github.com/JustinCappos)), NYU
+* Nicole Bates ([@nikcal](https://github.com/nikcal)), Microsoft
+* Stephen Augustus ([@justaugustus](https://github.com/justaugustus)), Bloomberg
 
 ### Support
 
