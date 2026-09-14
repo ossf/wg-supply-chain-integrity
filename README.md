@@ -1,12 +1,12 @@
 # Supply Chain Integrity WG
 
-> **Maintainers — start here:** the SCI WG is being repositioned (Q3 2026) as the OpenSSF maintainer front door. See the proposed [Charter v2.0](./governance/CHARTER.md). Comments and contributions welcome on the mailing list and in `#wg_supply_chain_integrity` on the OpenSSF Slack.
+> **Maintainers — start here:** the SCI WG is being repositioned as the OpenSSF maintainer front door. See the proposed [Charter v2.0](./governance/CHARTER.md). Comments and contributions welcome on the mailing list and in `#wg_supply_chain_integrity` on the OpenSSF Slack.
 
 ## Mission
 
 **Make adopting OpenSSF security tooling the easy default for open-source maintainers.**
 
-The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF "Producer Enablement" pillar and the OSPS Baseline into a low-friction adoption path.
+The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF Technical Vision and the OSPS Baseline into a low-friction adoption path.
 
 The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
 

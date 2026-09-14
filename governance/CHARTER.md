@@ -18,7 +18,7 @@ This is the gap the revamped SCI WG proposes to own.
 
 > **Make adopting OpenSSF security tooling the easy default for open-source maintainers.**
 
-## 4. Measurable Objective
+## 4. Objectives
 
 The WG maintains a measurable, time-bound adoption objective in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
 
@@ -50,7 +50,7 @@ The following illustrate current ownership of the areas above as of this charter
 - Manufacturer-side adoption: [ORBIT's Launchpad](https://github.com/ossf/wg-orbit).
 - Funded targeted hardening: [Alpha-Omega](https://alpha-omega.dev/).
 
-## 6. Relationship to existing initiatives
+## 6. Relationships
 
 SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
 
@@ -80,7 +80,7 @@ No more than one-third of co-chairs -- rounded down, with a minimum of one co-ch
 ### 9.2 Decision-making
 
 - **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1 (§9.4), consensus of the co-chairs after a mailing-list comment window (see Section 13). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
+- **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1 (§9.4), consensus of the co-chairs after a mailing-list comment window (see §13). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
 
 ### 9.3 Conflicts of interest
 
@@ -116,7 +116,7 @@ The WG's broader scope under this charter strains the literal reading of "Supply
 
 ## 11. Intellectual property / licensing
 
-Per the [OpenSSF Charter](https://charter.openssf.org/), which is binding on this WG and takes precedence over anything below. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the OpenSSF Charter permits:
+The [OpenSSF Charter](https://charter.openssf.org/) is binding on this WG and takes precedence over anything below. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the OpenSSF Charter permits:
 
 - Code: Apache License 2.0 or the MIT License.
 - Data: any Community Data License Agreement (CDLA).
