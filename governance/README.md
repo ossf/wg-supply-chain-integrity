@@ -13,12 +13,12 @@ See the [top-level README](../README.md#chairs) for the current roster.
 
 ## Decision-making
 
-Per Charter §9:
+Per Charter §9 and §13:
 
 - **Default decisions:** lazy consensus on the WG mailing list, five business days.
-- **Charter amendments, TI admission, TI sunset, co-chair changes:** consensus of the co-chairs after a mailing-list comment window.
-- **Amendments:** consensus of the co-chairs, 14 days' public notice on the mailing list, notification to the OpenSSF TAC; material changes (mission, scope, TI admission rule, introduction of a formal TSC) additionally require TAC review.
-- **Co-chair elections:** annually; mechanics in a forthcoming Operating Procedures companion doc.
+- **Charter amendments, TI admission, TI sunset, co-chair changes:** during Phase 1, consensus of the co-chairs after a 14-day mailing-list comment window; once Phase 2 begins, a two-thirds vote of the Steering Committee (excluding recusals) after the same window.
+- **Charter amendments specifically** additionally require OpenSSF TAC involvement: notification in Phase 1 (with TAC review for material changes -- mission, scope, the TI admission rule, or Steering Committee composition/seat allocation), and TAC approval in Phase 2.
+- **Co-chair vacancies:** filled on demand when a loss would drop the co-chair count below the §9.1 floor, not on a fixed schedule; the remaining co-chairs (or the Steering Committee, once seated) solicit nominations.
 
 ## Steering Committee
 
