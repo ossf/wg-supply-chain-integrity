@@ -35,12 +35,20 @@ The WG maintains a measurable, time-bound adoption objective in [`README.md`](..
 
 ### 5.2 Out of scope
 
-1. Authoring or owning the OSPS Baseline itself - that's [ORBIT WG](https://github.com/ossf/wg-orbit).
-2. Authoring or owning security tooling that is not adoption-focused - ownership sits with each tool's sponsoring WG or Technical Initiative (e.g., Sigstore is sponsored directly by the OpenSSF TAC); SCI does not claim general tooling development as in scope.
-3. Coordinated vulnerability disclosure processes and policy - that's the [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
-4. Manufacturer-side adoption - that's [ORBIT's Launchpad](https://github.com/ossf/wg-orbit).
-5. Targeted hardening of specific critical projects via paid engagement - that's [Alpha-Omega](https://alpha-omega.dev/).
+1. Authoring or owning specifications, standards, or metrics that another WG or Technical Initiative already owns.
+2. General security-tooling implementation that is not itself an adoption on-ramp.
+3. Coordinated vulnerability disclosure processes and policy.
+4. Manufacturer-side (as opposed to maintainer-side) adoption programs.
+5. Targeted, funded hardening engagements for specific critical projects.
 6. Adjudicating between competing technical approaches owned by other WGs.
+
+The following illustrate current ownership of the areas above as of this charter's adoption. They are examples, not an exhaustive or binding list, and do not themselves define scope if OpenSSF's WG structure changes:
+
+- OSPS Baseline authorship: [ORBIT WG](https://github.com/ossf/wg-orbit).
+- General security tooling (e.g., Sigstore): sponsored directly by the OpenSSF TAC or another WG/TI.
+- Coordinated vulnerability disclosure: [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
+- Manufacturer-side adoption: [ORBIT's Launchpad](https://github.com/ossf/wg-orbit).
+- Funded targeted hardening: [Alpha-Omega](https://alpha-omega.dev/).
 
 ## 6. Relationship to existing initiatives
 
@@ -108,11 +116,14 @@ The WG's broader scope under this charter strains the literal reading of "Supply
 
 ## 11. Intellectual property / licensing
 
-- Code: Apache License 2.0 with the Developer Certificate of Origin.
-- Documentation: Creative Commons Attribution 4.0.
-- Data: CDLA-Permissive 2.0.
-- Trademarks per Linux Foundation policy.
-- Alternative licenses require approval per Linux Foundation Governing Board policy.
+Per the [OpenSSF Charter](https://charter.openssf.org/), which is binding on this WG and takes precedence over anything below. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the OpenSSF Charter permits:
+
+- Code: Apache License 2.0 or the MIT License.
+- Data: any Community Data License Agreement (CDLA).
+- Specifications: the Community Specification License, Version 1.0.
+- All other documentation: Creative Commons Attribution 4.0 International.
+
+Trademarks, and any request for a license outside these options, follow Linux Foundation policy.
 
 ## 12. Community assets
 
