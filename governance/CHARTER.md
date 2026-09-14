@@ -1,10 +1,10 @@
 # OpenSSF Supply Chain Integrity Working Group - Charter
 
-*Status: **Proposed v2.0**, Q3 2026. Supersedes the unadopted 2023 draft. Submitted to the OpenSSF TAC for review per the Q2 2026 SCI WG report ([ossf/tac#614](https://github.com/ossf/tac/pull/614)).*
+*Last updated: 2026 Q3.*
 
 ## 1. Overview
 
-The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group focused on lowering adoption cost for open-source maintainers across the OpenSSF tooling surface. It operates as a **front door and brokering layer**: sponsoring Technical Initiatives (TIs) whose primary value is reducing adoption friction, and routing maintainer needs to the appropriate sibling WG when they fall outside our remit.
+The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group focused on lowering adoption cost for open-source maintainers across the OpenSSF tooling surface. It operates as a **front door and brokering layer**: sponsoring Technical Initiatives (TIs) whose primary value is reducing adoption friction, and routing maintainer needs to the appropriate sibling WG when they fall outside the WG's remit.
 
 ## 2. Motivation
 
@@ -12,7 +12,7 @@ OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GU
 
 The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open-source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
 
-This is the gap the revamped SCI WG proposes to own, in line with the option named in the Q2 2026 SCI WG TAC report (PR #614, "Refocus the WG on adoption").
+This is the gap the revamped SCI WG proposes to own.
 
 ## 3. Mission
 
@@ -46,12 +46,12 @@ Within 12 months of charter adoption, every actively-maintained OpenSSF-recommen
 
 The table below is reviewed annually with sibling-WG chairs. Where SCI publishes maintainer-facing material, it cites and links the owning WG's source of truth; if SCI discovers a gap, it files an issue with the owning WG before producing its own material.
 
-| Initiative | Their remit | Our remit | Handoff line |
+| Initiative | Their remit | SCI's remit | Handoff line |
 |---|---|---|---|
-| **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; we link and notify BP liaison. |
+| **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; SCI links and notifies the BP liaison. |
 | **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
 | **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
-| **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to us for ongoing self-serve resources. |
+| **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to SCI for ongoing self-serve resources. |
 | **AI/ML Security WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
 
 ## 7. Technical Initiatives
@@ -105,7 +105,7 @@ The two Sandbox-tier seats are filled by election among nominees put forward by 
 
 ## 10. Naming
 
-The WG's broader scope under this charter strains the literal reading of "Supply Chain Integrity." We considered renaming (candidates include *"Maintainer Enablement WG"* and *"Producer Enablement WG"*) and chose to preserve the SCI name for now, citing brand continuity and substantive overlap between supply-chain integrity and maintainer-side adoption. We commit to revisiting within 12 months of charter adoption.
+The WG's broader scope under this charter strains the literal reading of "Supply Chain Integrity." The WG considered renaming (candidates include *"Maintainer Enablement WG"* and *"Producer Enablement WG"*) and chose to preserve the SCI name for now, citing brand continuity and substantive overlap between supply-chain integrity and maintainer-side adoption.
 
 ## 11. Intellectual property / licensing
 
@@ -129,16 +129,9 @@ During Phase 1 (§9.4), this charter may be amended by consensus of the co-chair
 
 Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
 
-## 14. Requested TAC action
+## 14. References
 
-The SCI WG requests that the TAC review and approve this charter as the WG's adopted v2.0 charter. The WG separately notes for TAC consideration, on a timeline of the TAC's choosing, that the current OpenSSF project-to-WG topology mixes topical and functional groupings; a deliberate discussion of when each is appropriate would help future WGs orient. This is offered as input, not a request, and does not propose realignment of any current TI.
-
-## 15. References
-
-- Q2 2026 SCI WG TAC report - [ossf/tac#614](https://github.com/ossf/tac/pull/614)
-- "Maintainer Experience" issue - [ossf/tac#169](https://github.com/ossf/tac/issues/169)
 - ORBIT WG Charter - https://github.com/ossf/wg-orbit/blob/main/CHARTER.md
-- GovOps WG proposal - [ossf/tac#588](https://github.com/ossf/tac/issues/588)
 - OpenSSF Technical Vision - https://github.com/ossf/tac/blob/main/technical-vision.md
 - OSPS Baseline - https://github.com/ossf/security-baseline
 - OpenSSF project/WG template - [`ossf/project-template/README.md`](https://github.com/ossf/project-template/blob/main/README.md)

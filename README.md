@@ -75,7 +75,7 @@ Older activities (as Digital Identity Attestation WG):
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
 
-- **Charter (proposed v2.0):** [`governance/CHARTER.md`](./governance/CHARTER.md) — submitted to the TAC per the [Q2 2026 WG report](https://github.com/ossf/tac/pull/614).
+- **Charter (proposed v2.0):** [`governance/CHARTER.md`](./governance/CHARTER.md).
 - **Governance process:** [`governance/README.md`](./governance/README.md).
 
 ## Antitrust Policy Notice

@@ -4,7 +4,7 @@ This directory holds the formal governance documents for the OpenSSF Supply Chai
 
 ## Documents
 
-- [**`CHARTER.md`**](./CHARTER.md) — the proposed v2.0 charter (Q3 2026). Repositions the WG as the OpenSSF maintainer front door. Submitted to the TAC per the [Q2 2026 SCI WG report](https://github.com/ossf/tac/pull/614).
+- [**`CHARTER.md`**](./CHARTER.md) — the proposed v2.0 charter. Repositions the WG as the OpenSSF maintainer front door.
 - [Chair Onboarding Guide](chair-onboarding.md) — walkthrough for new WG chairs/leads
 
 ## Co-chairs
