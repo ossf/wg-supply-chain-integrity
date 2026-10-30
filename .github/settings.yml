@@ -11,7 +11,7 @@ repository:
   homepage: https://openssf.org
 
   # Collaborators: give specific users access to this repository.
-  # see /governance/roles.md for details on write access policy
+  # see governance/README.md and OpenSSF TAC guidelines for details on write access policy and roles
   # note that the permissions below may provide wider access than needed for
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
