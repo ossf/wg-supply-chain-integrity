@@ -1,1 +1,1 @@
-#Placeholder for BLOGS
+# Placeholder for Blogs
