@@ -99,7 +99,7 @@ Agenda/notes:
 
 
 * Direction and priorities for 2024
-    * Reprised the quarterly TAC review, [ssci.io/sci-deck](ssci.io/sci-deck)
+    * Reprised the quarterly TAC review, [ssci.io/sci-deck](https://ssci.io/sci-deck)
     * Directions in 2024:
         * SLSA, new tracks
         * S2C2F, attestation format
@@ -375,7 +375,7 @@ Agenda
     * We’ll gather questions for the session async
 * :08 Supply Chain Control Plane (Isaac Hepworth)
     * Trying to establish some conceptual anchors for our space, and identify patterns we’re seeing from various contributors
-        * [ssci.io/control-plane](ssci.io/control-plane) 
+        * [ssci.io/control-plane](https://ssci.io/control-plane) 
     * Please read and comment on the doc!
     * Feedback from the meeting
         * Would be useful to have a crisper idea of the universe of tools fitting together in this space
@@ -506,7 +506,7 @@ Agenda
     * Verification tool to track image verifications, signatures, etc.
     * OPA and Rego as policy definitions
     * GitHub action is in the works, to integrate easily into workflows
-    * Question about relation to [Seedwing](seedwing.io) and Trustification
+    * Question about relation to [Seedwing](https://seedwing.io) and Trustification
         * Also from Red Hat
         * Seedwing could potentially define policies which are evaluated by EC
 

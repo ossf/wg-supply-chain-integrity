@@ -1,0 +1,25 @@
+{
+  "name": "wg-supply-chain-integrity",
+  "version": "1.0.0",
+  "description": "OpenSSF Supply Chain Integrity Working Group repository test suite and validation harness",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "test:governance": "node --test tests/governance.test.js",
+    "test:links": "node --test tests/links.test.js",
+    "test:markdown": "node --test tests/markdown-syntax.test.js",
+    "test:yaml": "node --test tests/yaml-config.test.js"
+  },
+  "keywords": [
+    "openssf",
+    "supply-chain-integrity",
+    "governance",
+    "testing",
+    "validation"
+  ],
+  "author": "OpenSSF Supply Chain Integrity WG",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
+}
