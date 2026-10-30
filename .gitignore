@@ -1,0 +1,17 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Environment / OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+
+# Local reports
+TEST_AUDIT_REPORT.md
