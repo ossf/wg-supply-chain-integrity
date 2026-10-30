@@ -1,0 +1,44 @@
+name: DCO Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  dco:
+    name: Verify Developer Certificate of Origin
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Verify Signed-off-by in commits
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          echo "Checking DCO sign-offs for PR commits..."
+          COMMITS=$(git log --no-merges --format="%H" "origin/${BASE_REF}..HEAD")
+          FAILED=0
+          for commit in $COMMITS; do
+            SIGNOFF=$(git log -1 --format="%B" $commit | grep -Ei "^Signed-off-by: .+ <.+@.+>$" || true)
+            if [ -z "$SIGNOFF" ]; then
+              echo "Error: Commit $commit is missing valid 'Signed-off-by: Name <email>' trailer."
+              FAILED=1
+            else
+              echo "OK: Commit $commit has valid sign-off."
+            fi
+          done
+          if [ $FAILED -ne 0 ]; then
+            echo ""
+            echo "DCO Verification Failed! OpenSSF requires all commits to be signed off."
+            echo "You can sign off commits with: git commit -s --amend"
+            exit 1
+          fi
+          echo "All commits passed DCO sign-off check."

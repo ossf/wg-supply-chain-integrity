@@ -62,9 +62,9 @@ Older activities (as Digital Identity Attestation WG):
 Working Group operations are consistent with standard operating guidelines provided by the OSSF Technical Advisory Committee
 [TAC](https://github.com/ossf/tac).
 
-Full details of process and roles are linked from [governance README](/governance).
+Full details of process and roles are linked from [governance README](governance/README.md).
 
-New SCI WG Charter can be read from [governance CHARTER](/governance/CHARTER.MD)
+New SCI WG Charter can be read from [governance CHARTER](governance/CHARTER.md)
 
 ## Antitrust Policy Notice
 

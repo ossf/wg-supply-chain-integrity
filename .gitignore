@@ -1,0 +1,15 @@
+# Dependencies & Environment
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# Local files
+TEST_AUDIT_REPORT.md
