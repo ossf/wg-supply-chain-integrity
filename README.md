@@ -19,7 +19,7 @@ The chairs review and refresh these objectives without a charter amendment ([Cha
 
 ## Motivation
 
-OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers lack an end-to-end guide to "what do I actually do, in what order, and what do I get" ([2026 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2026/2026-Q3-SCI-WG.md)). The revamped SCI WG exists to close that gap.
+OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, Sigstore, Best Practice Badging, gittuf, GUAC, OpenSSF Scorecard, OSPS Baseline, RSTUF, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers lack an end-to-end guide to "what do I actually do, in what order, and what do I get" ([2026 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2026/2026-Q3-SCI-WG.md)). The revamped SCI WG exists to close that gap.
 
 ## Communications
 

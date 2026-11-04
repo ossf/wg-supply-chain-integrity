@@ -20,7 +20,7 @@
 
   - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security.
   - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
-  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, who owns it, where to send a maintainer."
+  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, how effective it is in difference cases, who owns it, and where to send a potential adopter that wishes to use it."
   - iv. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
   - v. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
   - vi. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
