@@ -18,16 +18,15 @@
 
 - c. **In scope:**
 
-  - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security.
-  - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
+  - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security, including integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
+  - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering maintainers' cost of adopting supply chain security practices and tooling.
   - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, how well it works in different cases, who owns it, and where to send someone who wants to adopt it."
-  - iv. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
-  - v. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
-  - vi. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
-  - vii. A "what to do next" roadmap that sequences supply chain security practices by stage of the software supply chain.
-  - viii. Consumer-side discoverability: making the supply chain signals that sponsored TIs help produce findable and verifiable downstream.
-  - ix. A threat matrix comparing how supply chain security tools and practices protect against different attack types.
-  - x. Sponsorship of security infrastructure that supply chain tooling depends on, such as key and secrets management for signing and attestation.
+  - iv. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
+  - v. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
+  - vi. A "what to do next" roadmap that sequences supply chain security practices by stage of the software supply chain.
+  - vii. Consumer-side discoverability: making the supply chain signals that sponsored TIs help produce findable and verifiable downstream.
+  - viii. A threat matrix comparing how supply chain security tools and practices protect against different attack types, compiled from each project's own description of the threats it addresses.
+  - ix. Sponsorship of security infrastructure that supply chain tooling depends on, such as key and secrets management for signing and attestation.
 
 - d. **Out of scope:**
 
