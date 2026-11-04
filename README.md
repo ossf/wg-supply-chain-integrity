@@ -71,7 +71,7 @@ The table below is reviewed annually with sibling-WG chairs. Where SCI publishes
 
 | Initiative | Their remit | SCI's remit | Handoff line |
 | --- | --- | --- | --- |
-| **Best Practices WG** | Scorecard, BP Badge, general security curriculum, OSPS Baseline authorship | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; SCI links and notifies the BP liaison. |
+| **Best Practices WG** | Scorecard, BP Badge, general security curriculum | Maintainer-facing per-ecosystem cookbooks and clinic intake | "How do I improve my Scorecard score / what's a generally-secure-development practice?" -> BP; SCI links and notifies the BP liaison. |
 | **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
 | **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
 | **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to SCI for ongoing self-serve resources. |
