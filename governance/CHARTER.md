@@ -100,7 +100,7 @@
 ## 4. Decision-making
 
 - a. **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- b. **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs, after a mailing-list comment window (see Section 8). An active chair is one not inactive under Section 2.c.i. A chair who is the subject of a decision does not take part in it.
+- b. **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs. Each follows a mailing-list comment window (see Section 8), except chair removal, which requires only the notice in Section 2.c. An active chair is one not inactive under Section 2.c.i. A chair who is the subject of a decision does not take part in it.
 - c. **Escalation:** if a decision cannot be resolved, any chair may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
 
 ## 5. Compliance with Policies

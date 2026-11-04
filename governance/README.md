@@ -16,7 +16,7 @@ See the [top-level README](../README.md#chairs) for the current roster.
 Per Charter Section 4 and Section 8:
 
 - **Default decisions:** lazy consensus on the WG mailing list, five business days.
-- **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs after a 14-day mailing-list comment window. The chair a decision concerns does not take part.
+- **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs after a 14-day mailing-list comment window; chair removal needs only notice to the chair and the OpenSSF TAC. The chair a decision concerns does not take part.
 - **Charter amendments specifically** additionally require OpenSSF TAC approval.
 - **Chair vacancies:** filled on demand when a loss would drop the chair count below the Section 2.a floor, not on a fixed schedule; the remaining chairs solicit nominations.
 - **Chair removal:** for cause (inactivity for three months, unexplained unresponsiveness for 30 days, or a Code of Conduct violation), with notice to the chair and the OpenSSF TAC, and appeal to the TAC. See [Charter Section 2.c](./CHARTER.md#2-leadership).
