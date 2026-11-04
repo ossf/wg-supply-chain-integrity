@@ -20,7 +20,7 @@
 
   - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security.
   - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
-  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, how effective it is in difference cases, who owns it, and where to send a potential adopter that wishes to use it."
+  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, how well it works in different cases, who owns it, and where to send someone who wants to adopt it."
   - iv. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
   - v. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
   - vi. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
@@ -31,9 +31,9 @@
 - d. **Out of scope:**
 
   - i. Authoring or owning specifications, standards, or metrics that another WG or Technical Initiative already owns.
-  - ii. General security-tooling implementation that is not itself an adoption on-ramp.
+  - ii. Building security tools in general. SCI builds tools only when they help maintainers adopt existing OpenSSF work, such as integrations or setup guides.
   - iii. Coordinated vulnerability disclosure processes and policy.
-  - iv. Manufacturer-side (as opposed to maintainer-side) adoption programs.
+  - iv. Adoption programs for manufacturers (organizations that build products on open source), such as ORBIT's Launchpad. SCI serves the maintainers of the open source itself.
   - v. Targeted, funded hardening engagements for specific critical projects.
   - vi. Adjudicating between competing technical approaches owned by other WGs.
 
@@ -89,7 +89,7 @@
   - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
   - iv. Accepts maintainer feedback routed to it by the WG.
 
-- d. **Sunset.** For the purposes of this subsection, a Technical Initiative does not meet its obligations in a quarter if it has no current accountable representative (c.i) or did not report to the WG that quarter (c.ii).
+- d. **Sunset.** For the purposes of this subsection, a Technical Initiative does not meet its obligations in a quarter if it has no current accountable representative (c.i) or did not report to the WG that quarter (c.ii). Before the end of each quarter, the chairs remind any Technical Initiative that has not yet met those obligations. A quarter counts as missed only if the initiative does not respond within 14 days of the reminder.
 
   - i. A Technical Initiative that does not meet its obligations for two consecutive quarters is reviewed under Section 4.b.
   - ii. **Transition.** At adoption of this charter, the chairs give written notice to any Technical Initiative that did not meet its obligations in the preceding quarter. For an initiative given notice, the first full quarter after adoption counts as its second consecutive quarter under (i).
