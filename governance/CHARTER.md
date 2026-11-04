@@ -75,16 +75,17 @@
 
 - b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates all of the following:
 
-  - i. **Adoption surface.** Its outputs are, or directly support, something an open source maintainer adopts — a practice, specification, or tool the WG can route maintainers toward. A Technical Initiative need not itself be an on-ramp; it must be something an on-ramp can lead to.
-  - ii. **Interoperability.** It interoperates with at least two other OpenSSF-sponsored Technical Initiatives, specifications, or recommended practices, evidenced by a working reference workflow, a tested data exchange, a shared attestation chain, or a documented dependency with joint conformance tests. A hyperlink is not evidence.
-  - iii. **Accountability.** It names an accountable representative and accepts the sponsorship obligations in (c).
+  - i. **Supply chain relevance.** Its outputs help open source producers emit, or consumers assess and verify, supply chain security signals, or materially enable adoption of tooling that does.
+  - ii. **Adoption surface.** Its outputs are, or directly support, something an open source maintainer adopts — a practice, specification, or tool the WG can route maintainers toward. A Technical Initiative need not itself be an on-ramp; it must be something an on-ramp can lead to.
+  - iii. **Interoperability.** It interoperates with at least two other OpenSSF-sponsored Technical Initiatives, specifications, or recommended practices, evidenced by a working reference workflow, a tested data exchange, a shared attestation chain, or a documented dependency with joint conformance tests. A hyperlink is not evidence.
+  - iv. **Accountability.** It names an accountable representative and accepts the sponsorship obligations in (c).
 
   Admission decisions follow Section 4.b. The WG notifies sibling WGs whose remit the initiative touches, and records any objection. Section 1.d.i restricts what the WG itself authors; it does not restrict what a sponsored Technical Initiative may author.
 
 - c. **Sponsorship obligations.** Each sponsored Technical Initiative:
 
   - i. Names an accountable representative to the WG, and keeps that designation current.
-  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC. A report states the initiative's current status and what it plans next; an empty section or a placeholder is not a report.
+  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC. A report states the initiative's current status, what it plans next, and any measure of adoption it tracks; an empty section or a placeholder is not a report.
   - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
   - iv. Accepts maintainer feedback routed to it by the WG.
 
