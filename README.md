@@ -4,9 +4,9 @@
 
 ## Mission
 
-**Make adopting OpenSSF security tooling the easy default for open source maintainers.**
+**Make it easy for open source maintainers to emit trustworthy supply chain signals, and for consumers to assess and verify them.**
 
-The Supply Chain Integrity Working Group is the OpenSSF front door for maintainers adopting security tooling — a brokering layer that routes maintainer needs to the right sibling WG, sponsors Technical Initiatives whose value is friction reduction, and turns the OpenSSF Technical Vision and the OSPS Baseline into a low-friction adoption path.
+The Supply Chain Integrity Working Group is OpenSSF's maintainer enablement and external engagement front door. It sponsors Technical Initiatives that lower the cost of producing and verifying supply chain signals, and routes maintainer needs to the sibling WG that owns them.
 
 The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
 
@@ -16,7 +16,7 @@ Within 12 months of charter adoption, every actively-maintained OpenSSF-recommen
 
 ## Motivation
 
-OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face a fragmented landscape: dozens of overlapping artifacts, unclear sequencing, no shared on-ramp. The revamped SCI WG exists to close that gap.
+OpenSSF has produced a breadth of tools, frameworks, and specifications across the security space — SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and many more — but adoption has been uneven. ORBIT's Launchpad gives *manufacturers* an on-ramp for adopting this work into their SDLCs; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers lack an end-to-end guide to "what do I actually do, in what order, and what do I get" ([2026 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2026/2026-Q3-SCI-WG.md)). The revamped SCI WG exists to close that gap.
 
 ## Communications
 

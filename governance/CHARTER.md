@@ -6,11 +6,11 @@
 
 - a. **Mission.**
 
-  > **Make adopting OpenSSF security tooling the easy default for open source maintainers.**
+  > **Make it easy for open source maintainers to emit trustworthy supply chain signals, and for consumers to assess and verify them.**
 
-  The Supply Chain Integrity Working Group ("SCI WG") is the OpenSSF working group focused on lowering adoption cost for open source maintainers across the OpenSSF tooling surface. It operates as a **front door and brokering layer**: sponsoring Technical Initiatives (TIs) whose primary value is reducing adoption friction, and routing maintainer needs to the appropriate sibling WG when they fall outside the WG's remit.
+  The Supply Chain Integrity Working Group ("SCI WG") is OpenSSF's maintainer enablement and external engagement front door. It sponsors Technical Initiatives (TIs) that lower the cost of producing and verifying supply chain signals, and routes maintainer needs to the sibling WG that owns them.
 
-- b. **Motivation.** OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and others, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers face overlapping artifacts, unclear sequencing, and no single OpenSSF venue chartered to make adoption easier.
+- b. **Motivation.** OpenSSF has produced a breadth of tools, frameworks, and specifications SLSA, GUAC, Sigstore, Scorecard, OSV, OSPS Baseline, S2C2F, and others, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers lack an end-to-end guide to "what do I actually do, in what order, and what do I get" ([2026 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2026/2026-Q3-SCI-WG.md)), and no single OpenSSF venue is chartered to make adoption easier.
 
   The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
 
@@ -18,12 +18,15 @@
 
 - c. **In scope:**
 
-  - i. Maintainer-facing adoption on-ramps and decision aids across the OpenSSF tooling surface.
+  - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security.
   - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering adoption cost for maintainers.
   - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, who owns it, where to send a maintainer."
   - iv. Integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
   - v. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
   - vi. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
+  - vii. A "what to do next" roadmap that sequences supply chain security practices by stage of the software supply chain.
+  - viii. Consumer-side discoverability: making the supply chain signals that sponsored TIs help produce findable and verifiable downstream.
+  - ix. A threat matrix comparing how supply chain security tools and practices protect against different attack types.
 
 - d. **Out of scope:**
 
