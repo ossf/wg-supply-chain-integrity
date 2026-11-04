@@ -27,6 +27,7 @@
   - vii. A "what to do next" roadmap that sequences supply chain security practices by stage of the software supply chain.
   - viii. Consumer-side discoverability: making the supply chain signals that sponsored TIs help produce findable and verifiable downstream.
   - ix. A threat matrix comparing how supply chain security tools and practices protect against different attack types.
+  - x. Sponsorship of security infrastructure that supply chain tooling depends on, such as key and secrets management for signing and attestation.
 
 - d. **Out of scope:**
 
@@ -75,7 +76,7 @@
 
 - b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates all of the following:
 
-  - i. **Supply chain relevance.** Its outputs help open source producers emit, or consumers assess and verify, supply chain security signals, or materially enable adoption of tooling that does.
+  - i. **Supply chain relevance.** Its outputs help open source producers emit, or consumers assess and verify, supply chain security signals, or materially enable adoption of tooling that does. Infrastructure that supply chain tooling depends on, such as key and secrets management, meets this criterion.
   - ii. **Adoption surface.** Its outputs are, or directly support, something an open source maintainer adopts — a practice, specification, or tool the WG can route maintainers toward. A Technical Initiative need not itself be an on-ramp; it must be something an on-ramp can lead to.
   - iii. **Interoperability.** It interoperates with at least two other OpenSSF-sponsored Technical Initiatives, specifications, or recommended practices, evidenced by a working reference workflow, a tested data exchange, a shared attestation chain, or a documented dependency with joint conformance tests. A hyperlink is not evidence.
   - iv. **Accountability.** It names an accountable representative and accepts the sponsorship obligations in (c).
