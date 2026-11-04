@@ -1,6 +1,6 @@
 # OpenSSF Supply Chain Integrity Working Group - Charter
 
-*Last updated: 2026 Q3*
+*Last updated: 2026 Q4*
 
 ## 1. Mission and Scope
 
@@ -52,29 +52,19 @@
 
   No more than one-third of chairs — rounded down, with a minimum of one chair permitted per company — may be affiliated with the same company at any time.
 
-- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs — or, once seated, the Steering Committee — solicit nominations for replacement chairs. Selection follows Section 4.b's decision-making rule for chair changes.
+- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs solicit nominations for replacement chairs. Selection follows Section 4.b.
 
-- c. **Conflicts of interest.** Standard Linux Foundation conflict-of-interest disclosure expected from chairs. Recusal expected on decisions involving a chair's employer's directly competing TI.
+- c. **Removal.** A chair may be removed for cause under Section 4.b, with written notice to the chair concerned and to the OpenSSF TAC. Cause includes:
 
-- d. **Phases and composition.** The WG's governing body is established in two phases.
+  - i. **Inactivity:** no participation in WG meetings, on the WG mailing list, or in the WG's repositories for three consecutive months.
+  - ii. **Unexplained unresponsiveness:** no response to chair business within 30 days of a direct request, without notice of leave or absence.
+  - iii. **Code of Conduct violation,** as determined under OpenSSF Code of Conduct processes.
 
-  **Phase 1 (current).** The chairs govern the WG directly. During this phase, the chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
+  The chair concerned may appeal the removal to the OpenSSF TAC.
 
-  Phase 1 ends, and Phase 2 begins, upon the earlier of: (i) completion of the disposition review for every TI in the portfolio, or (ii) six months from charter adoption.
+- d. **Transition.** At adoption of this charter, the chairs give written notice to any chair who was inactive under (c.i) in the preceding three months. If that chair does not respond within 30 days of the notice, (c.ii) applies.
 
-  **Phase 2 (Steering Committee).** Once triggered, the WG's governing body becomes a Steering Committee composed of:
-
-  - i. The chairs (Section 2.a).
-  - ii. One seat per Technical Initiative at Incubating or Graduated OpenSSF lifecycle stage, held by that TI's designated representative.
-  - iii. Two seats representing all Technical Initiatives at Sandbox stage collectively, filled by election under Section 2.e.
-
-  Each Steering Committee member holds exactly one vote, regardless of how many roles or seats they might otherwise be eligible for.
-
-  No more than one-third of Steering Committee seats — rounded down, with a minimum of one seat permitted per company — may be held by people affiliated with the same company at any time. If seating a TI-designated representative, or an election result, would exceed this cap, the affected TI designates an alternate representative, or, for an elected seat, the next-highest vote-getter under Section 2.e is seated instead.
-
-- e. **Sandbox-tier seat elections.** The two Sandbox-tier seats are filled by election among nominees put forward by Sandbox-stage Technical Initiatives. Each Sandbox-stage TI may submit one nomination; a nominee need not be that TI's lead or designated representative. Each Sandbox-stage TI casts one vote for up to two nominees; the two nominees with the most votes are elected. Terms are one year, with an election held annually, administered by the chairs. Ties are broken by random draw, administered and publicly recorded by the chairs.
-
-  If a Sandbox-tier seat becomes vacant before its term ends, the seat is offered to the next-highest vote-getter from the most recent election; this may fill at most one vacancy between elections. A further vacancy before the next scheduled election triggers a special election under the same rules, administered by the chairs.
+- e. **Conflicts of interest.** Standard Linux Foundation conflict-of-interest disclosure expected from chairs. Recusal expected on decisions involving a chair's employer's directly competing TI.
 
 ## 3. Technical Initiatives
 
@@ -101,17 +91,18 @@
   - ii. **Transition.** At adoption of this charter, the chairs give written notice to any Technical Initiative that did not meet its obligations in the preceding quarter. For an initiative given notice, the first full quarter after adoption counts as its second consecutive quarter under (i).
   - iii. A review may conclude that the initiative continues under a remediation plan, transfers to another working group, returns to the OpenSSF TAC as unsponsored, or is archived. Sunset does not imply any judgement about the project's health or activity outside the WG.
 
-## 4. SC Voting
+- e. **Disposition review.** Within six months of adoption of this charter, the chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
+
+## 4. Decision-making
 
 - a. **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
-- b. **Charter amendments, TI admission, TI sunset, chair changes:** during Phase 1 (Section 2.d), consensus of the chairs after a mailing-list comment window (see Section 8). Once Phase 2 begins, a two-thirds vote of the Steering Committee, excluding recusals, after the same comment window.
-- c. **Quorum:** once the Steering Committee is seated (Phase 2), a vote requires at least fifty percent of voting members to be present.
-- d. **Escalation:** if a vote cannot be resolved, any chair, or once seated any Steering Committee member, may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
+- b. **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs, after a mailing-list comment window (see Section 8). An active chair is one not inactive under Section 2.c.i. A chair who is the subject of a decision does not take part in it.
+- c. **Escalation:** if a decision cannot be resolved, any chair may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
 
 ## 5. Compliance with Policies
 
 - a. This charter is subject to the [OpenSSF Charter](https://charter.openssf.org/) and any rules or policies established for all OpenSSF WGs.
-- b. WG participants are expected to conduct themselves professionally, subject to the Contributor Covenant Code of Conduct 2.0. The chairs, or once seated the Steering Committee, may adopt a different code of conduct for the WG, subject to OpenSSF TAC approval.
+- b. WG participants are expected to conduct themselves professionally, subject to the Contributor Covenant Code of Conduct 2.0. The chairs may adopt a different code of conduct for the WG, subject to OpenSSF TAC approval.
 - c. Participation is open to any individual or organization meeting this charter's requirements, on a non-discriminatory basis; the WG does not exclude participants based on competitive interests. All WG activities are subject to the Linux Foundation's Antitrust Policy.
 - d. The WG operates transparently: discussions, proposals, timelines, decisions, and status are open and visible to all. Suspected violations are reported to the OpenSSF TAC.
 
@@ -139,6 +130,4 @@
 
 ## 8. Amendments
 
-- a. During Phase 1 (Section 2.d), this charter may be amended by consensus of the chairs after 14 days' public notice on the WG mailing list, with notification to the OpenSSF TAC. Material changes — mission, scope, the TI admission rule, or changes to Steering Committee composition or seat allocation — additionally require TAC review.
-
-- b. Once Phase 2 begins, this charter may be amended by a two-thirds vote of the Steering Committee, excluding recusals, after 14 days' public notice on the WG mailing list, and requires OpenSSF TAC approval.
+- a. This charter may be amended by the chairs under Section 4.b after 14 days' public notice on the WG mailing list. Every amendment requires OpenSSF TAC approval.
