@@ -12,7 +12,10 @@ The shorthand: **sub-projects build the tools; the WG makes them adoptable.**
 
 ## Objectives
 
-Within 12 months of charter adoption, every actively-maintained OpenSSF-recommended security practice has a documented, signposted, maintainer-tested adoption path that begins with *"I'm an open source maintainer, where do I start?"* and ends with a measurable artifact (e.g., OSPS Baseline score, SLSA level, signed release). The SCI WG owns the on-ramp and the routing; sibling WGs continue to own the underlying practices.
+- **Measure adoption, not activity.** Each sponsored Technical Initiative tracks adoption of its tools and reports it in its quarterly report ([Charter Section 3.c.ii](./governance/CHARTER.md#3-technical-initiatives)).
+- **Make it clear where to go.** One maintainer entry point maps common supply chain security questions to the OpenSSF group or tool that answers them.
+
+The chairs review and refresh these objectives without a charter amendment ([Charter Section 1.f](./governance/CHARTER.md#1-mission-and-scope)).
 
 ## Motivation
 
@@ -45,9 +48,7 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 | Name | Repository | Website | Lifecycle Stage | Notes |
 | --- | --- | --- | --- | --- |
 | AMPEL | [GitHub](https://github.com/carabiner-dev/ampel) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/AMPEL_sandbox_stage.md) | Lightweight supply chain policy engine for verifying signed attestations |
-| BOMHort | [GitHub](https://github.com/seebom-labs/BOMHort) | [docs.bomhort.dev](https://docs.bomhort.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/BOMHort_sandbox_stage.md) | Kubernetes-native SBOM visualization and governance |
 | darnit | [GitHub](https://github.com/kusari-oss/darnit) | — | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/darnit_sandbox_stage.md) | Pluggable compliance audit framework for software engineering best practices |
-| FRSCA | [GitHub](https://github.com/buildsec/frsca) | [buildsec.github.io/frsca](https://buildsec.github.io/frsca) | Needs review | Factory for Repeatable Secure Creation of Artifacts. Not present in the TAC project table; the [2024 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2024/2024-Q3-SCI-WG.md) records its retirement |
 | gittuf | [GitHub](https://github.com/gittuf/gittuf) | [gittuf.dev](https://gittuf.dev/) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/gittuf_incubating_stage.md) | Verifiable security governance for git repositories |
 | GUAC | [GitHub](https://github.com/guacsec/guac) | [guac.sh](https://guac.sh) | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/guac_incubating.md) | Observability for the software supply chain |
 | S2C2F | [GitHub](https://github.com/ossf/s2c2f) | — | [Incubating](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/s2c2f_incubation_stage.md) | Secure supply chain consumption framework |
@@ -55,6 +56,8 @@ Meeting Notes and Agendas are available on [Google Drive](https://docs.google.co
 | SLSA | [GitHub](https://github.com/slsa-framework/slsa) | [slsa.dev](https://slsa.dev/) | [Graduated](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/SLSA_graduation_stage.md) | Supply-chain levels for software artifacts |
 | SLSA Tooling Project | [doc](./slsa-tooling.md) | — | Needs review | Tools supporting implementation of the SLSA specification. Not a separately tracked TAC project |
 | Zarf | [GitHub](https://github.com/zarf-dev/zarf) | [zarf.dev](https://zarf.dev/) | [Sandbox](https://github.com/ossf/tac/blob/main/process/project-lifecycle-documents/zarf_sandbox_stage.md) | Secure software delivery for connected and disconnected systems |
+
+BOMHort has moved to the [SBOM & VEX WG](https://github.com/ossf/wg-sbom-vex). FRSCA is no longer listed; the [2024 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2024/2024-Q3-SCI-WG.md) records its retirement.
 
 The Supply Chain Integrity Positioning SIG has been [sunset](./positioning-sig/README.md) as part of the v2.0 refocus; its outreach function is now central to the WG itself.
 
@@ -72,6 +75,11 @@ The table below is reviewed annually with sibling-WG chairs. Where SCI publishes
 | **Vulnerability Disclosures WG** | Coordinated disclosure norms, OSV schema, CVE program work | Pointers to disclosure / `SECURITY.md` / OSV inside recipes only | Any clinic intake touching a live or anticipated CVE is escalated within 24 hours to their triage contact. |
 | **ORBIT WG** | Manufacturer-side adoption (Launchpad); OSPS Baseline authorship and stewardship | Maintainer-side adoption; feedback into Baseline control drafting via ORBIT's process | Symmetric mirror across the maintainer<->manufacturer line. Quarterly joint session. |
 | **Alpha-Omega** | Funded targeted hardening of named critical projects | Long-tail, self-serve, maintainer-led on-ramps | Critical-infrastructure-scale intake routed to A-O; A-O graduates referred to SCI for ongoing self-serve resources. |
+| **SBOM & VEX WG** | SBOM and VEX formats and tooling, including BOMHort | Pointers to SBOM and VEX guidance in supply chain recipes | SBOM or VEX format and tooling questions -> SBOM & VEX WG. |
+| **Securing Software Repositories WG** | Package registry security | Maintainer-side publishing practices | Registry-side questions -> Securing Software Repositories WG. |
+| **Global Cyber Policy WG** | Public policy and regulation, including the CRA | Maintainer-facing pointers to policy guidance | Regulatory and compliance questions -> Global Cyber Policy WG. |
+| **DevRel** | Developer relations: outreach, content, and events | Maintainer-facing material for DevRel to amplify | Promotion of SCI material and events -> DevRel. |
+| **Ambassadors** | Representing OpenSSF in communities | The maintainer feedback loop | Maintainer feedback the Ambassadors gather -> SCI, which routes it to the owning WG or TI. |
 | **AI/ML Security WG, others** | Topical work in their domain | Route maintainer questions in their domain to them; fold their published maintainer-applicable practices into recipes | One row per sibling WG; updated annually with their chairs. |
 
 ## Governance
