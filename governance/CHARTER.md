@@ -1,155 +1,137 @@
-# OpenSSF Supply Chain Integrity WG Charter
+# OpenSSF Supply Chain Integrity Working Group - Charter
 
-_**June 2023:** We look to share the current Charter with the OpenSSF TAC within the next few weeks.  We hope to get approval from the TAC by end of July._
+*Last updated: 2026 Q4*
 
-_**April 2023:** We’re working within the SCI WG to refine this document to the point where it represents community consensus on our group’s priorities and direction. As we near the point of agreement we aim to share with the OpenSSF TAC for feedback before formal adoption._
+## 1. Mission and Scope
 
-## About this document
+- a. **Mission.**
 
-This document outlines a high-level summary of _a proposal_ for **OpenSSF Supply Chain Integrity WG’s direction as we progress through 2023.**
+  > **Make it easy for open source maintainers to emit trustworthy supply chain signals, and for consumers to assess and verify them.**
 
-The Mission and Vision are **intentionally expansive**, and anticipate years of work taking us beyond our progress to date.
+  The Supply Chain Integrity Working Group ("SCI WG") is OpenSSF's maintainer enablement and external engagement front door. It sponsors Technical Initiatives (TIs) that lower the cost of producing and verifying supply chain signals, and routes maintainer needs to the sibling WG that owns them.
 
-## Problem
-Modern software is componentized by nature, and its assembly usually involves parts provided by external suppliers (e.g., open or closed source libraries).
+- b. **Motivation.** OpenSSF has produced a breadth of tools, frameworks, and specifications, but adoption has been uneven. [ORBIT's Launchpad](https://github.com/ossf/wg-orbit) gives *manufacturers* an on-ramp for adopting this work; there is no equivalent program for the *maintainers* of the open source projects these tools are mostly built for. Maintainers lack an end-to-end guide to "what do I actually do, in what order, and what do I get" ([2026 Q3 SCI report](https://github.com/ossf/tac/blob/main/TI-reports/2026/2026-Q3-SCI-WG.md)), and no single OpenSSF venue is chartered to make adoption easier.
 
-Today it is hard or impossible for those depending on externally supplied components to evaluate their inherent security features, or infer characteristics from the security-related procedures that were used in their creation. Any assessments that are possible are ad-hoc, and therefore hard or impossible to automate and reason about at scale.
+  The [OpenSSF Technical Vision](https://github.com/ossf/tac/blob/main/technical-vision.md) commits to a future where "Producers of OSS (of all skill levels) have the ability to proactively and reactively address both existing and emergent security threats," calling for "extremely low-friction, automated tooling to make security processes less onerous, more accurate, and trusted... [made] available at zero cost." The [OSPS Baseline](https://github.com/ossf/security-baseline) is emerging as the unifying metric for what "good" looks like for open source projects. What is missing is a working group whose explicit mission is to turn that vision and that metric into an adoption path without re-implementing work owned by sibling WGs.
 
-Without the ability to assess the security properties of upstream components it is hard or impossible to:
-  * Quantify the risk of their use.
-  * Reason about the risk of their use.
-  * Manage and mitigate the risk of their use.
-  * Systematically reduce the risk of their use.
+  This is the gap the revamped SCI WG proposes to own.
 
-## Mission
-**Proposed SCI WG mission:**
-      _Scalable standardized attestable practices for supply chain security_
+- c. **In scope:**
 
-Scalable:
-  * A uniform approach across languages and ecosystems
-  * Automatable, with automation wherever possible
-  * Implementable at key points of leverage
+  - i. Maintainer-facing adoption on-ramps and decision aids for supply chain security, including integration patterns and reference implementations that compose OpenSSF tooling end-to-end for a real maintainer workflow.
+  - ii. Sponsorship of Technical Initiatives whose primary value proposition is lowering maintainers' cost of adopting supply chain security practices and tooling.
+  - iii. Cross-WG brokering: maintaining a current map of "what OpenSSF has, how well it works in different cases, who owns it, and where to send someone who wants to adopt it."
+  - iv. Maintainer research and feedback channels: surveys, interviews, and logs fed back to producing WGs.
+  - v. Tracking maintainer-adoption metrics (e.g., OSPS Baseline coverage among sponsored TIs and showcase projects).
+  - vi. A "what to do next" roadmap that sequences supply chain security practices by stage of the software supply chain.
+  - vii. Consumer-side discoverability: making the supply chain signals that sponsored TIs help produce findable and verifiable downstream.
+  - viii. A threat matrix comparing how supply chain security tools and practices protect against different attack types, compiled from each project's own description of the threats it addresses.
+  - ix. Sponsorship of security infrastructure that supply chain tooling depends on, such as key and secrets management for signing and attestation.
 
-Standardized:
-  * Shared vocabulary and problem model for the industry
-  * Ready interoperability up and down the supply chain
-  * Maximum reusability
+- d. **Out of scope:**
 
-Attestable:
-  * Amenable to reproducible automatic evaluation
-  * Representable in machine-readable interchange formats
-  * Explicitly anchorable in appropriate roots of trust
+  - i. Authoring or owning specifications, standards, or metrics that another WG or Technical Initiative already owns.
+  - ii. Building security tools in general. SCI builds tools only when they help maintainers adopt existing OpenSSF work, such as integrations or setup guides.
+  - iii. Coordinated vulnerability disclosure processes and policy.
+  - iv. Adoption programs for manufacturers (organizations that build products on open source), such as ORBIT's Launchpad. SCI serves the maintainers of the open source itself.
+  - v. Targeted, funded hardening engagements for specific critical projects.
+  - vi. Adjudicating between competing technical approaches owned by other WGs.
 
-## Vision
-We envision a future with:
+  The following illustrate current ownership of the areas above as of this charter's adoption. They are examples, not an exhaustive or binding list, and do not themselves define scope if OpenSSF's WG structure changes:
 
-  * A **pragmatic supply chain security framework** covering key functional areas
-    * An ergonomic decomposition of the problem space at the altitude of Build, Provenance, Dependencies, Source, and so on.
-    * Incrementally attainable levels that have a clear progression between each, enable explicit decisions around what level to aim for, and allow adopters to get started easily 
-    * Designed for the real world; adoptable in practice (e.g., FRSCA); deployable in enterprise contexts
+  - OSPS Baseline authorship: [ORBIT WG](https://github.com/ossf/wg-orbit).
+  - General security tooling (e.g., Sigstore): sponsored directly by the OpenSSF TAC or another WG/TI.
+  - Coordinated vulnerability disclosure: [Vulnerability Disclosures WG](https://github.com/ossf/wg-vulnerability-disclosures).
+  - Manufacturer-side adoption: [ORBIT Launchpad](https://github.com/ossf/wg-orbit).
+  - Funded targeted hardening: [Alpha-Omega](https://alpha-omega.dev/).
 
+- e. **Relationships.** SCI defers to sibling OpenSSF working groups for ownership of their own remit. Where SCI's maintainer-facing work touches a sibling WG's domain, SCI cites and links that WG's source of truth rather than duplicating it, and coordinates through that WG's chairs. If SCI discovers a gap in a sibling WG's material, it files an issue with that WG before producing its own. The current map of sibling-WG relationships and handoff points, reviewed annually, is maintained in [`README.md`](../README.md#relationships).
 
-  * Upstream security practices **universally evaluable by downstream policy**
-    * Artifacts crossing supply chain boundaries are annotated with security-relevant metadata
-    * Data-driven control points are enabled throughout the supply chain
-    * Standard toolchains support generation of, and policy decisioning on, supply chain metadata
-    * An explicit threat model with consumer-selected trust anchors: those doing the trusting can decide who to trust, and on what basis (including regulatory constraints)
+- f. **Objectives.** The WG maintains adoption objectives in [`README.md`](../README.md#objectives), reviewed and refreshed without requiring a charter amendment.
 
+## 2. Leadership
 
-  * **Ubiquitous adoption of the framework in Open Source**, with improved security posture as a result.
+- a. **Chairs.** The WG is led by at least two chairs. Current chairs are listed in [`README.md`](../README.md#chairs).
 
-We anticipate an uplift in overall end-to-end security through:
-  * **Upstream adoption** of robust security practice, in line with the framework we define
-  * **Downstream risk control** using policy driven by upstream attestations of practice implementation
+  No more than one-third of chairs — rounded down, with a minimum of one chair permitted per company — may be affiliated with the same company at any time.
 
-## Strategy and Principles
-We will use the principles below to guide us. In some cases we will stray from direct adherence but we’ll aim to only do so knowingly, with good reason.
+- b. **Vacancies.** If a resignation, removal, or other loss of a chair would drop the number of chairs below the floor in (a), the remaining chairs solicit nominations for replacement chairs. Selection follows Section 4.b.
 
-  * Disappear into the infrastructure 
-    * Web users don’t have to worry about, or even think too consciously about, SSL. This is what supply chain security should look like to producers and consumers.
+- c. **Removal.** A chair may be removed for cause under Section 4.b, with written notice to the chair concerned and to the OpenSSF TAC. Cause includes:
 
-  * Target shared technical infrastructure as a strategic point of leverage
-    * Package managers: these form a critical trust boundary between open source producers and consumers.
-    * Widespread developer tools, CI/CD systems, operating systems: build atop common platforms and toolchains.
+  - i. **Inactivity:** no participation in WG meetings, on the WG mailing list, or in the WG's repositories for three consecutive months.
+  - ii. **Unexplained unresponsiveness:** no response to chair business within 30 days of a direct request, without notice of leave or absence.
+  - iii. **Code of Conduct violation,** as determined under OpenSSF Code of Conduct processes.
 
-  * Anchor trust in tools and systems, not processes and people
+  The chair concerned may appeal the removal to the OpenSSF TAC.
 
-  * Focus on Open Source solutions, implementation, and adoption 
-    * The SCI WG _framework_ will be applicable beyond Open Source, but we’ll leave solutions for closed-source implementation and adoption to others, e.g., commercial tool vendors
-    * We anticipate SCI attestations and SCI-driven policy will flow transitively into closed source ecosystems, through the near-ubiquitous ingestion of Open Source dependencies.
-    * We will collaborate with [OpenSSF's Sterling Toolchain](https://docs.google.com/document/d/1H3Nk0PwmylLg5F7pqrIvyKzTyXAll0-f50B7DdqOh4A/edit#heading=h.9m0zi4b0wnne) efforts to ensure alignment.
+- d. **Transition.** At adoption of this charter, the chairs give written notice to any chair who was inactive under (c.i) in the preceding three months. If that chair does not respond within 30 days of the notice, (c.ii) applies.
 
-  * Draft off OpenSSF momentum
-    * Reuse work already in flight elsewhere in the OpenSSF ecosystem. For instance, the Best Practices WG is developing a glossary and vocab which we should snap to.
+- e. **Conflicts of interest.** Standard Linux Foundation conflict-of-interest disclosure expected from chairs. Recusal expected on decisions involving a chair's employer's directly competing TI.
 
-  _[…lots more needed here, including details on stakeholders and benefits to each]_
+## 3. Technical Initiatives
 
-## Looking back on 2022
-A very brief snapshot of where we’re at, closing on the end of 2022:
+- a. The SCI WG sponsors Technical Initiatives whose work the WG can route open source maintainers toward; the WG offers brokering, research, and cross-TI integration capacity in return. Sponsorship does not supersede a Technical Initiative's own charter: each sponsored initiative retains authority over its roadmap, maintainers, releases, and implementation decisions. The current roster is maintained in [`README.md`](../README.md#technical-initiatives).
 
-* **Build** and **Provenance** (SLSA)
-  * SLSA standardizes secure practices for Build and Provenance, and an associated attestation format
-  * We anticipate a 1.0 specification in early 2023
-  * We close the year with some better clarity around SLSA/SBOM and SLSA/SSDF
-  * We have standalone SLSA builders and verifiers in place across languages
-    * GitHub Actions and Google Cloud Build can both generate SLSA provenance
-  * npm is implementing SLSA and Sigstore for end-to-end integrity of Node packages
-  * We have limited traction with SLSA provenance for policy decisioning
-    * e.g., Chainguard Enforce for k8s admissions control
-  * We have limited Open Source products shipping with SLSA provenance
-    * e.g., SUSE Linux, Flatcar Linux, Chainguard Images, Google Assured OSS
+- b. **Admission criteria.** A proposed Technical Initiative is eligible for SCI WG sponsorship when it demonstrates all of the following:
 
+  - i. **Supply chain relevance.** Its outputs help open source producers emit, or consumers assess and verify, supply chain security signals, or materially enable adoption of tooling that does. Infrastructure that supply chain tooling depends on, such as key and secrets management, meets this criterion.
+  - ii. **Adoption surface.** Its outputs are, or directly support, something an open source maintainer adopts — a practice, specification, or tool the WG can route maintainers toward. A Technical Initiative need not itself be an on-ramp; it must be something an on-ramp can lead to.
+  - iii. **Interoperability.** It interoperates with at least two other OpenSSF-sponsored Technical Initiatives, specifications, or recommended practices, evidenced by a working reference workflow, a tested data exchange, a shared attestation chain, or a documented dependency with joint conformance tests. A hyperlink is not evidence.
+  - iv. **Accountability.** It names an accountable representative and accepts the sponsorship obligations in (c).
 
-* **Dependencies** (S2C2F)
-  * S2C2F formally joined OpenSSF in October 2022 and standardizes secure practices for ingesting open source software into developer workflows
-    * No associated attestation format yet
-  * We are focusing on increasing awareness about our initiative as a recent OpenSSF joiner
-    * We recognize that there are opportunities for collaboration within the OpenSSF, so we are consolidating a strategy
-    * We will also be presenting the S2C2F at various engagements in early 2023
-	
-* **Source** (formerly SLSA)
-  * Secure practices for Source management were taken out of scope for SLSA 1.0
+  Admission decisions follow Section 4.b. The WG notifies sibling WGs whose remit the initiative touches, and records any objection. Section 1.d.i restricts what the WG itself authors; it does not restrict what a sponsored Technical Initiative may author.
 
-* **Reference toolchain** (FRSCA)
-  * In addition we have a Factory for Repeatable Secure Creation of Artifacts (FRSCA), an open source reference implementation across [some subset of our practices].
+- c. **Sponsorship obligations.** Each sponsored Technical Initiative:
 
-## 2023 Priorities
-Proposed priorities for OpenSSF Supply Chain Integrity WG the coming year:
+  - i. Names an accountable representative to the WG, and keeps that designation current.
+  - ii. Reports quarterly to the WG for onward reporting to the OpenSSF TAC. A report states the initiative's current status, what it plans next, and any measure of adoption it tracks; an empty section or a placeholder is not a report.
+  - iii. Publishes annually a statement of how its work lowers adoption friction for a defined maintainer population, and what maintainer-facing documentation exists for it.
+  - iv. Accepts maintainer feedback routed to it by the WG.
 
-* **Establish and cement community intention around Mission and Vision**
-  * Define our community, e.g., in concentric rings. Who is in ring 0? Ring 1? And so on.
-    * OpenSSF WGs
-    * Others in LF (e.g., DBoM)
-    * CDF, CNCF
-    * IETF (including SCITT)
-  * Circulate and socialize a version of this document with the community
-  * Generate buy-in and commitment to the long-term direction and near-term priorities
-  * Assess community health; plan and deliver tune-ups. Where do we need more participation?
-  * Develop specific outreach plan for community expansion. Which companies would we like to be involved, and how do we reach them?
-    * We need to be cognizant of our own biases as we undertake this exercise. Community should be inclusive and not about favorites.
-    * OpenSSF has some prior art and thinking we might leverage
+- d. **Sunset.** For the purposes of this subsection, a Technical Initiative does not meet its obligations in a quarter if it has no current accountable representative (c.i) or did not report to the WG that quarter (c.ii). Before the end of each quarter, the chairs remind any Technical Initiative that has not yet met those obligations. A quarter counts as missed only if the initiative does not respond within 14 days of the reminder.
 
-* **Exponentiate traction with Build and Provenance**
-  Land the first version of SLSA more substantively, with an approved specification and end-to-end implementation in major ecosystems.
-  * Specification to 1.0
-  * First end-to-end package manager implementations
-  * Key tooling components in place — foundations for more scalable implementations
-    * Triangulate with FRSCA and [Sterling Toolchain](https://docs.google.com/document/d/1z4YxuT6yzbgrNlUpgTbJhuKv5ngdsd6O8Dz5yRTepgs/edit#heading=h.r17cemgdt4tw) concept
-  * Major OSS projects on-boarded, generating and distributing provenance
-    * Idea: start with OpenSSF projects
+  - i. A Technical Initiative that does not meet its obligations for two consecutive quarters is reviewed under Section 4.b.
+  - ii. **Transition.** At adoption of this charter, the chairs give written notice to any Technical Initiative that did not meet its obligations in the preceding quarter. For an initiative given notice, the first full quarter after adoption counts as its second consecutive quarter under (i).
+  - iii. A review may conclude that the initiative continues under a remediation plan, transfers to another working group, returns to the OpenSSF TAC as unsponsored, or is archived. Sunset does not imply any judgement about the project's health or activity outside the WG.
 
-* **Create momentum with Dependencies**
- With S2C2F now in OpenSSF, begin to [close some key gaps](https://docs.google.com/document/d/1Cp7TOVx7hWwxKGebWWPn4sGVIIbYSwR0-mWdwBO45po/edit#heading=h.y37mdlsrg0tq):
-  * Awareness and adoption; education, outreach, calls for participation, collaboration with key partners in OpenSSF
-  * Attestations and metadata; standardize contents and formats; explore distribution and discovery
-  * Tools for automatic assessment and attestation of conformance
+- e. **Disposition review.** Within six months of adoption of this charter, the chairs complete a disposition review of every Technical Initiative in the WG's portfolio, confirming for each its current OpenSSF lifecycle stage, an accountable representative, and continued fit with the WG's scope.
 
-* Enable adoption with Tooling
-_[Need to decide how to approach this. Should tooling be consolidated SCI-wide? OpenSSF-wide? Or be owned by individual SIGs? E.g., slsa-tooling, s2c2f-tooling, sbom-tooling, etc.]_
+## 4. Decision-making
 
-* **Define SCI WG umbrella framework and begin standardization of the next functional area**
-  * Sketch, scope, and position uber-framework. Figure out how SLSA and S2C2F will naturally up-scope into this larger setting.
-    * This will necessarily depend on the problem statement above, anchoring all of this work.
-  * Requirements definition for Vulnerability Management
-    * Assessment of attestation approach; how much is automatable, trust-in-tool, etc?
-    * Extension of policy model beyond Build and Provenance
+- a. **Default decisions:** lazy consensus on the mailing list (5 business days, no sustained objection).
+- b. **Charter amendments, TI admission, TI sunset, chair changes, chair removal:** a majority of active chairs. Each follows a mailing-list comment window (see Section 8), except chair removal, which requires only the notice in Section 2.c. An active chair is one not inactive under Section 2.c.i. A chair who is the subject of a decision does not take part in it.
+- c. **Escalation:** if a decision cannot be resolved, any chair may refer the matter to the OpenSSF TAC for assistance in reaching a resolution.
+
+## 5. Compliance with Policies
+
+- a. This charter is subject to the [OpenSSF Charter](https://charter.openssf.org/) and any rules or policies established for all OpenSSF WGs.
+- b. WG participants are expected to conduct themselves professionally, subject to the Contributor Covenant Code of Conduct 2.0. The chairs may adopt a different code of conduct for the WG, subject to OpenSSF TAC approval.
+- c. Participation is open to any individual or organization meeting this charter's requirements, on a non-discriminatory basis; the WG does not exclude participants based on competitive interests. All WG activities are subject to the Linux Foundation's Antitrust Policy.
+- d. The WG operates transparently: discussions, proposals, timelines, decisions, and status are open and visible to all. Suspected violations are reported to the OpenSSF TAC.
+
+## 6. Community Assets
+
+- a. The Linux Foundation holds title to all trade or service marks used by the WG, whether based on common law or registered rights. Use of WG trademarks follows Linux Foundation trademark policy.
+- b. The Linux Foundation or the WG owns or controls the repositories, social media accounts, and domain name registrations created for use by the WG community.
+- c. The Linux Foundation is not expected or required to take any action on behalf of the WG inconsistent with its own policies, tax-exempt status, or purpose.
+- d. Current communication channels, meeting times, and meeting notes are maintained in [`README.md`](../README.md).
+
+## 7. Intellectual Property Policy
+
+- a. Contributors retain copyright in their own contributions; no contributor is required to assign copyright to the WG.
+
+- b. All contributions, regardless of content type, require a Developer Certificate of Origin sign-off. Each Technical Initiative selects its own license per content type, from the options the [OpenSSF Charter](https://charter.openssf.org/) permits:
+
+  - i. Code: Apache License 2.0 or the MIT License.
+  - ii. Data: any Community Data License Agreement (CDLA).
+  - iii. Specifications: the Community Specification License, Version 1.0.
+  - iv. All other documentation: Creative Commons Attribution 4.0 International.
+
+- c. Trademarks, and any request for a license outside these options, follow Linux Foundation policy.
+
+- d. Contributed files should carry license information, such as an SPDX short-form identifier.
+
+## 8. Amendments
+
+- a. This charter may be amended by the chairs under Section 4.b after 14 days' public notice on the WG mailing list. Every amendment requires OpenSSF TAC approval.
